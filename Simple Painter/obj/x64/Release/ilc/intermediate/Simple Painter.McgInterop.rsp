@@ -1,0 +1,46 @@
+/debug:pdbonly
+/nowarn:0436;0618;1668;1685;1701;1702
+/debug+
+/nostdlib+
+/optimize+
+/out:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop.dll"
+/pdb:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop.pdb"
+/platform:x64
+/warnaserror+
+/unsafe
+/nologo
+/target:library
+/define:MCG_PRE_BUILD
+/define:WIN64
+/define:AMD64
+/define:ALIGN_ACCESS
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Private.CoreLib.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.3\tools\x64\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Private.Interop.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Private.Uri.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.3\tools\x64\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.3\tools\x64\ilc\lib\Private\System.Private.DispatchProxy.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Reflection.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Runtime.iltoc"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Runtime.InteropServices.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Numerics.Vectors.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Threading.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Diagnostics.Debug.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Runtime.Extensions.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Collections.iltoc"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.ObjectModel.iltoc"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Runtime.WindowsRuntime.dll"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.3\tools\x64\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+/r:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\2.0.0\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+/r:"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\System.Private.Simple Painter.Generated.dll"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\Adapters.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\AssemblyInfo.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\Data.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\Helpers.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\ImplTypes.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\PInvoke.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\SafeTypes.g.cs"
+"C:\Users\jocel\source\repos\Simple Painter\Simple Painter\obj\x64\Release\ilc\intermediate\Simple Painter.McgInterop\SharedStubs.g.cs"

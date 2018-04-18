@@ -1,0 +1,6 @@
+MainPackage=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Upload\Simple Painter_1.1.6.0_ARM.appx
+SymbolPackage=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Upload\Simple Painter_1.1.6.0\Simple Painter_1.1.6.0_ARM.appxsym
+ResourcePack=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Simple Painter_1.1.6.0_scale-100.appx
+ResourcePack=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Simple Painter_1.1.6.0_scale-125.appx
+ResourcePack=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Simple Painter_1.1.6.0_scale-150.appx
+ResourcePack=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\ARM\Release\Simple Painter_1.1.6.0_scale-400.appx

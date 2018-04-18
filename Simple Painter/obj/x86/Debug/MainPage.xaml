@@ -1,0 +1,38 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Simple_Painter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+
+    mc:Ignorable="d" >
+    <Page.Background>
+        <ImageBrush/>
+    </Page.Background>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <canvas:CanvasControl x:ConnectionId='2'                   ClearColor="Beige" x:Name="DrawingCanvas"/>
+
+        <InkCanvas x:ConnectionId='3' x:Name="InkCanvas" />
+
+        <InkToolbar x:ConnectionId='4' VerticalAlignment="Top" HorizontalAlignment="Right" InitialControls="None"                                       x:Name="InkToolbar">
+            
+            <InkToolbarPencilButton x:ConnectionId='5'                                                                                      />
+            <InkToolbarBallpointPenButton/>
+            <InkToolbarHighlighterButton/>
+            <InkToolbarStencilButton/>
+            <InkToolbarEraserButton/>
+            <InkToolbarCustomToolButton x:ConnectionId='6'  x:Name="btnUndo" >
+                <SymbolIcon Symbol="Undo" />
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:ConnectionId='7' x:Name="btnOpen">
+                <SymbolIcon Symbol="OpenFile"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:ConnectionId='8' x:Name="btnSave">
+                <SymbolIcon Symbol="Save"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+        </InkToolbar>
+    </Grid>
+</Page>
+

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\bin\x64\Release\Simple Painter_1.1.6.0_x64.appx
+SymbolPackage=C:\Users\jocel\source\repos\Simple Painter\Simple Painter\AppPackages\Simple Painter_1.1.6.0_Test\Simple Painter_1.1.6.0_x64.appxsym

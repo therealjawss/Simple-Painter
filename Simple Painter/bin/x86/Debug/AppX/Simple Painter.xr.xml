@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl">
+      <RootProperty Name="ClearColor" />
+      <RootEvent Name="Draw" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.InkCanvas" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbar">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="InitialControls" />
+      <RootProperty Name="TargetInkCanvas" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarPencilButton">
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarBallpointPenButton" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarHighlighterButton" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarStencilButton" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarEraserButton" />
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarCustomToolButton">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
+    </RootType>
+    <RootType FullName="Simple_Painter.MainPage" />
+  </Roots.RootTypes>
+</Roots>

@@ -6,16 +6,32 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
 
-    mc:Ignorable="d" Loaded="Page_Loaded">
- 
+    mc:Ignorable="d" >
+    <Page.Background>
+        <ImageBrush/>
+    </Page.Background>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <canvas:CanvasControl Draw="DrawCanvas" ClearColor="Beige" x:Name="DrawingCanvas"/>
 
         <InkCanvas x:Name="InkCanvas" />
-        <InkToolbar VerticalAlignment="Top" InitialControls="None"  TargetInkCanvas="{x:Bind InkCanvas}" x:Name="InkToolbar">
+
+        <InkToolbar VerticalAlignment="Top" HorizontalAlignment="Right" InitialControls="None"  TargetInkCanvas="{x:Bind InkCanvas}" x:Name="InkToolbar">
+            
             <InkToolbarPencilButton Checked="InkToolbarPencilButton_Checked" Unchecked="InkToolbarPencilButton_Unchecked"/>
             <InkToolbarBallpointPenButton/>
+            <InkToolbarHighlighterButton/>
+            <InkToolbarStencilButton/>
             <InkToolbarEraserButton/>
+            <InkToolbarCustomToolButton  x:Name="btnUndo" >
+                <SymbolIcon Symbol="Undo" />
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:Name="btnOpen">
+                <SymbolIcon Symbol="OpenFile"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:Name="btnSave">
+                <SymbolIcon Symbol="Save"></SymbolIcon>
+            </InkToolbarCustomToolButton>
         </InkToolbar>
     </Grid>
 </Page>
