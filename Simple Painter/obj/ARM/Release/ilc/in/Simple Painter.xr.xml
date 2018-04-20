@@ -21,6 +21,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.InkCanvas" />
     <RootType FullName="Windows.UI.Xaml.Controls.InkToolbar">
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="InitialControls" />
       <RootProperty Name="TargetInkCanvas" />
       <RootProperty Name="Children" />
@@ -36,7 +37,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarEraserButton" />
     <RootType FullName="Windows.UI.Xaml.Controls.InkToolbarCustomToolButton">
       <RootProperty Name="Content" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
       <RootProperty Name="Symbol" />

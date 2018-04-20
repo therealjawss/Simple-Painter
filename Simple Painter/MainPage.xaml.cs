@@ -17,6 +17,11 @@ using Microsoft.Graphics.Canvas.UI.Xaml;
 using Microsoft.Graphics.Canvas;
 using Windows.UI.Core;
 using Windows.Storage.Streams;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.Storage;
+using Windows.UI;
+using Windows.Graphics.Display;
+using Windows.Graphics.Imaging;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -62,6 +67,7 @@ namespace Simple_Painter
             btnOpen.Click += BtnOpen_Click;
             btnSave.Click += BtnSave_Click;
             btnUndo.Click += BtnUndo_Click;
+            btnExport.Click += BtnExport_Click;
             _inkSynchronizer = inkPresenter.ActivateCustomDrying();
 
             inkPresenter.StrokesCollected += InkPresenter_StrokesCollected;
@@ -117,23 +123,51 @@ namespace Simple_Painter
      
         }
 
-  
+        private async void BtnExport_Click(object sender, RoutedEventArgs e)
+        {
+            var displayInformation = DisplayInformation.GetForCurrentView();
+            StorageFolder storageFolder = KnownFolders.SavedPictures;
+            var renderTargetBitmap = new RenderTargetBitmap();
+            await renderTargetBitmap.RenderAsync(DrawingCanvas, (int)DrawingCanvas.ActualWidth, (int)DrawingCanvas.ActualHeight);
+
+            var pixelBuffer = await renderTargetBitmap.GetPixelsAsync();
+            //    var file = await storageFolder.CreateFileAsync("ppp.png", CreationCollisionOption.GenerateUniqueName);
+            Windows.Storage.Pickers.FileSavePicker savePicker = new Windows.Storage.Pickers.FileSavePicker();
+            savePicker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.PicturesLibrary;
+            savePicker.FileTypeChoices.Add("PNG", new List<string>() { ".png" });
+            savePicker.DefaultFileExtension = ".png";
+            savePicker.SuggestedFileName = "PPP";
+
+            Windows.Storage.StorageFile file =
+                await savePicker.PickSaveFileAsync();
+
+            using (var filestream = await file.OpenAsync(FileAccessMode.ReadWrite))
+            {
+                var encoder = await BitmapEncoder.CreateAsync(BitmapEncoder.PngEncoderId, filestream);
+                encoder.SetPixelData(BitmapPixelFormat.Bgra8,
+                    BitmapAlphaMode.Straight,
+                    (uint)renderTargetBitmap.PixelWidth,
+                    (uint)renderTargetBitmap.PixelHeight,
+                    displayInformation.LogicalDpi,
+                    displayInformation.LogicalDpi,
+                    pixelBuffer.ToArray());
+                await encoder.FlushAsync();
+
+
+            }
+        }
+
         private async void BtnSave_Click(object sender, RoutedEventArgs e)
         {
-
-          //  var InkCanvas = new InkCanvas();
-
+            
             InkStrokeContainer container = new InkStrokeContainer();
-            //            container.AddStrokes(from item in strokes
-            //select item.Clone());
+            
             foreach (var item in _inkStrokes)
             {
                 container.AddStrokes(from stroke in item.GetStrokes() select stroke.Clone());
             }
-                //container.
-                //IReadOnlyList<InkStroke> currentStrokes = InkCanvas.InkPresenter.StrokeContainer.GetStrokes();
-
-                if (container.GetStrokes().Count >0) {
+            
+            if (container.GetStrokes().Count >0) {
                 Windows.Storage.Pickers.FileSavePicker savePicker = new Windows.Storage.Pickers.FileSavePicker();
                 savePicker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.DocumentsLibrary;
                 savePicker.FileTypeChoices.Add("GIF with embedded ISF", new List<string>() { ".gif" });

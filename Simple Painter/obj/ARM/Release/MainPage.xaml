@@ -15,14 +15,25 @@
         <canvas:CanvasControl x:ConnectionId='2'                   ClearColor="Beige" x:Name="DrawingCanvas"/>
 
         <InkCanvas x:ConnectionId='3' x:Name="InkCanvas" />
-        <InkToolbar x:ConnectionId='4' VerticalAlignment="Top" InitialControls="None"                                       x:Name="InkToolbar">
+
+        <InkToolbar x:ConnectionId='4' VerticalAlignment="Top" HorizontalAlignment="Right" InitialControls="None"                                       x:Name="InkToolbar">
+            
             <InkToolbarPencilButton x:ConnectionId='5'                                                                                      />
             <InkToolbarBallpointPenButton/>
             <InkToolbarHighlighterButton/>
             <InkToolbarStencilButton/>
             <InkToolbarEraserButton/>
-            <InkToolbarCustomToolButton x:ConnectionId='6'                                          >
+            <InkToolbarCustomToolButton x:ConnectionId='6'  x:Name="btnUndo" >
                 <SymbolIcon Symbol="Undo" />
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:ConnectionId='7' x:Name="btnOpen">
+                <SymbolIcon Symbol="OpenFile"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:ConnectionId='8' x:Name="btnSave">
+                <SymbolIcon Symbol="Save"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:ConnectionId='9' x:Name="btnExport">
+                Export
             </InkToolbarCustomToolButton>
         </InkToolbar>
     </Grid>

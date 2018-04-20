@@ -1,1 +1,1 @@
-C:\Users\jocel\source\repos\Simple Painter\Simple Painter\AppPackages\Simple Painter_1.1.6.0_Test\Simple Painter_1.1.6.0_x86_x64_arm.appxbundle
+C:\Users\jocel\source\repos\Simple Painter\Simple Painter\AppPackages\Simple Painter_1.1.7.0_Test\Simple Painter_1.1.7.0_x86_x64_arm.appxbundle

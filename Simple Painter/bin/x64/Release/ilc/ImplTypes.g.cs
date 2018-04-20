@@ -326,9 +326,9 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnCreateTimer_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget37>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.CreateTimer__n),
-				pfnTryEnqueue_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget38>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.TryEnqueue__n),
-				pfnTryEnqueue__0_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget39>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.TryEnqueue__0__n),
+				pfnCreateTimer_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget39>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.CreateTimer__n),
+				pfnTryEnqueue_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget40>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.TryEnqueue__n),
+				pfnTryEnqueue__0_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget41>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.TryEnqueue__0__n),
 			}
 			#endif
 			;
@@ -550,7 +550,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnGetForCurrentThread_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.GetForCurrentThread__n),
+				pfnGetForCurrentThread_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib__Impl.Vtbl.GetForCurrentThread__n),
 			}
 			#endif
 			;
@@ -789,7 +789,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Windows.Graphics.DirectX.DirectXPixelFormat pixelFormat)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_31<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									((int)pixelFormat), 
 									8
@@ -802,7 +802,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasBufferPrecision bufferPrecision)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_31<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									((int)bufferPrecision), 
 									9
@@ -813,7 +813,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static ulong get_MaximumCacheSize(global::System.__ComObject __this)
 			{
-				ulong __ret = global::__Interop.ForwardComStubs.Stub_31<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				ulong __ret = global::__Interop.ForwardComStubs.Stub_32<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									10
 								);
@@ -825,7 +825,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						ulong value)
 			{
-				global::__Interop.ForwardComStubs.Stub_32<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									value, 
 									11
@@ -847,7 +847,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									value, 
 									13
@@ -908,7 +908,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						int hresult)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.ICanvasDevice>(
 									__this, 
 									hresult, 
 									16
@@ -954,6 +954,79 @@ namespace Microsoft.Graphics.Canvas
 				return __ret;
 			}
 		}
+
+		// v-table for 'Microsoft.Graphics.Canvas.ICanvasResourceCreator'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Microsoft_Graphics_Canvas__ICanvasResourceCreator
+			global::System.IntPtr pfnget_Device_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Microsoft_Graphics_Canvas_ICanvasResourceCreator__Impl_Vtbl_s_staticVtable")]
+			static global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Device_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl.get_Device__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl)
+									);
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Device__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe_value__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+									__this, 
+									0
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Microsoft.Graphics.Canvas.CanvasDevice>(
+									__this, 
+									((void**)unsafe_value__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Microsoft.Graphics.Canvas.ICanvasResourceCreator__Impl.Vtbl), "get_Device__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Microsoft_Graphics_Canvas_ICanvasResourceCreator__Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
 	}
 
 	// Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi
@@ -964,7 +1037,7 @@ namespace Microsoft.Graphics.Canvas
 		{
 			public static float get_Dpi(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									6
 								);
@@ -976,7 +1049,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						int pixels)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									pixels, 
 									7
@@ -1023,7 +1096,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									color, 
 									6
@@ -1035,7 +1108,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 color)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									color, 
 									7
@@ -1069,7 +1142,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasImage image, 
 						global::System.Numerics.Vector2 offset)
 			{
-				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
+				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
 									__this, 
 									image, 
 									offset, 
@@ -1084,7 +1157,7 @@ namespace Microsoft.Graphics.Canvas
 						float x, 
 						float y)
 			{
-				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
+				global::__Interop.ForwardComStubs.Stub_46<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
 									__this, 
 									image, 
 									x, 
@@ -1099,7 +1172,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.CanvasBitmap bitmap, 
 						global::Windows.Foundation.Rect destinationRectangle)
 			{
-				global::__Interop.ForwardComStubs.Stub_46<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::__Interop.ForwardComStubs.Stub_47<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									bitmap, 
 									destinationRectangle, 
@@ -1114,7 +1187,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Windows.Foundation.Rect sourceRectangle)
 			{
-				global::__Interop.ForwardComStubs.Stub_47<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
+				global::__Interop.ForwardComStubs.Stub_48<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
 									__this, 
 									image, 
 									offset, 
@@ -1169,7 +1242,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect destinationRectangle, 
 						global::Windows.Foundation.Rect sourceRectangle)
 			{
-				global::__Interop.ForwardComStubs.Stub_48<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
+				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.ICanvasImage>(
 									__this, 
 									image, 
 									destinationRectangle, 
@@ -1730,7 +1803,7 @@ namespace Microsoft.Graphics.Canvas
 						float y1, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x0, 
 									y0, 
@@ -1773,7 +1846,7 @@ namespace Microsoft.Graphics.Canvas
 						float y1, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x0, 
 									y0, 
@@ -1833,7 +1906,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x0, 
 									y0, 
@@ -1880,7 +1953,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.UI.Color color, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x0, 
 									y0, 
@@ -1951,7 +2024,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x0, 
 									y0, 
@@ -2016,7 +2089,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_55<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x0, 
 									y0, 
@@ -2035,7 +2108,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect rect, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_55<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_56<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									rect, 
 									brush, 
@@ -2052,7 +2125,7 @@ namespace Microsoft.Graphics.Canvas
 						float h, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -2069,7 +2142,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect rect, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_56<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_57<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									rect, 
 									color, 
@@ -2086,7 +2159,7 @@ namespace Microsoft.Graphics.Canvas
 						float h, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -2144,7 +2217,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -2189,7 +2262,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.UI.Color color, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -2258,7 +2331,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x, 
 									y, 
@@ -2321,7 +2394,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_55<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x, 
 									y, 
@@ -2340,7 +2413,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect rect, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_55<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_56<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									rect, 
 									brush, 
@@ -2357,7 +2430,7 @@ namespace Microsoft.Graphics.Canvas
 						float h, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -2374,7 +2447,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect rect, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_56<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_57<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									rect, 
 									color, 
@@ -2391,7 +2464,7 @@ namespace Microsoft.Graphics.Canvas
 						float h, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -2504,7 +2577,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_57<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_58<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									rect, 
 									radiusX, 
@@ -2525,7 +2598,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_58<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_59<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -2546,7 +2619,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_59<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_60<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									rect, 
 									radiusX, 
@@ -2567,7 +2640,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_60<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_61<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -2934,7 +3007,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_57<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_58<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									rect, 
 									radiusX, 
@@ -2955,7 +3028,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_58<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_59<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -2976,7 +3049,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_59<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_60<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									rect, 
 									radiusX, 
@@ -2997,7 +3070,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_60<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_61<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -3018,7 +3091,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_61<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_62<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									centerPoint, 
 									radiusX, 
@@ -3037,7 +3110,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -3056,7 +3129,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_62<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_63<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									centerPoint, 
 									radiusX, 
@@ -3075,7 +3148,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -3137,7 +3210,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -3186,7 +3259,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.UI.Color color, 
 						float strokeWidth)
 			{
-				global::__Interop.ForwardComStubs.Stub_52<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -3259,7 +3332,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_53<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x, 
 									y, 
@@ -3326,7 +3399,7 @@ namespace Microsoft.Graphics.Canvas
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_54<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_55<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle>(
 									__this, 
 									x, 
 									y, 
@@ -3347,7 +3420,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_61<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_62<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									centerPoint, 
 									radiusX, 
@@ -3366,7 +3439,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -3385,7 +3458,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_62<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_63<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									centerPoint, 
 									radiusX, 
@@ -3404,7 +3477,7 @@ namespace Microsoft.Graphics.Canvas
 						float radiusY, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_50<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_51<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -3422,7 +3495,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_63<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_64<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									centerPoint, 
 									radius, 
@@ -3439,7 +3512,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_64<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_65<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -3456,7 +3529,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_65<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_66<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									centerPoint, 
 									radius, 
@@ -3473,7 +3546,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_66<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -3804,7 +3877,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_63<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_64<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									centerPoint, 
 									radius, 
@@ -3821,7 +3894,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_64<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_65<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									x, 
 									y, 
@@ -3838,7 +3911,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_65<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_66<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									centerPoint, 
 									radius, 
@@ -3855,7 +3928,7 @@ namespace Microsoft.Graphics.Canvas
 						float radius, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_66<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									x, 
 									y, 
@@ -4336,7 +4409,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									offset, 
@@ -4352,7 +4425,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									offset, 
@@ -4369,7 +4442,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									x, 
@@ -4387,7 +4460,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									x, 
@@ -4417,7 +4490,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry geometry, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_72<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									color, 
@@ -4996,7 +5069,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									offset, 
@@ -5065,7 +5138,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									offset, 
@@ -5082,7 +5155,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									x, 
@@ -5155,7 +5228,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									x, 
@@ -5236,7 +5309,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry geometry, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::__Interop.ForwardComStubs.Stub_72<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									geometry, 
 									color, 
@@ -5251,7 +5324,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									offset, 
@@ -5267,7 +5340,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
+				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
 									__this, 
 									geometry, 
 									offset, 
@@ -5284,7 +5357,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									geometry, 
 									x, 
@@ -5302,7 +5375,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
+				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
 									__this, 
 									geometry, 
 									x, 
@@ -5332,7 +5405,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry geometry, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
+				global::__Interop.ForwardComStubs.Stub_72<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
 									__this, 
 									geometry, 
 									color, 
@@ -5347,7 +5420,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 point, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_67<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									textLayout, 
 									point, 
@@ -5364,7 +5437,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									textLayout, 
 									x, 
@@ -5381,7 +5454,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 point, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_68<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_69<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout>(
 									__this, 
 									textLayout, 
 									point, 
@@ -5398,7 +5471,7 @@ namespace Microsoft.Graphics.Canvas
 						float y, 
 						global::Windows.UI.Color color)
 			{
-				global::__Interop.ForwardComStubs.Stub_70<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_71<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Text.CanvasTextLayout>(
 									__this, 
 									textLayout, 
 									x, 
@@ -5475,7 +5548,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh gradientMesh, 
 						global::System.Numerics.Vector2 point)
 			{
-				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh>(
+				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh>(
 									__this, 
 									gradientMesh, 
 									point, 
@@ -5490,7 +5563,7 @@ namespace Microsoft.Graphics.Canvas
 						float x, 
 						float y)
 			{
-				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh>(
+				global::__Interop.ForwardComStubs.Stub_46<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh>(
 									__this, 
 									gradientMesh, 
 									x, 
@@ -5505,7 +5578,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument svgDocument, 
 						global::Windows.Foundation.Size viewportSize)
 			{
-				global::__Interop.ForwardComStubs.Stub_72<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>(
+				global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>(
 									__this, 
 									svgDocument, 
 									viewportSize, 
@@ -5713,7 +5786,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::System.Numerics.Matrix3x2 get_Transform(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									169
 								);
@@ -5725,7 +5798,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::System.Numerics.Matrix3x2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									value, 
 									170
@@ -5768,7 +5841,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> get_EffectBufferPrecision(global::System.__ComObject __this)
 			{
-				global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> __ret = global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> __ret = global::__Interop.ForwardComStubs.Stub_76<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									173
 								);
@@ -5780,7 +5853,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> value)
 			{
-				global::__Interop.ForwardComStubs.Stub_76<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									value, 
 									174
@@ -5790,7 +5863,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Graphics.Imaging.BitmapSize get_EffectTileSize(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
+				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession>(
 									__this, 
 									175
 								);
@@ -5821,7 +5894,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						float opacity)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
+				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_79<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
 									__this, 
 									opacity, 
 									177
@@ -5886,7 +5959,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush opacityBrush, 
 						global::Windows.Foundation.Rect clipRectangle)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_79<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
+				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_80<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
 									__this, 
 									opacityBrush, 
 									clipRectangle, 
@@ -5901,7 +5974,7 @@ namespace Microsoft.Graphics.Canvas
 						float opacity, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry clipGeometry)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_80<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
+				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
 									__this, 
 									opacity, 
 									clipGeometry, 
@@ -5916,7 +5989,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush opacityBrush, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry clipGeometry)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
+				global::Microsoft.Graphics.Canvas.CanvasActiveLayer __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.CanvasActiveLayer>(
 									__this, 
 									opacityBrush, 
 									clipGeometry, 
@@ -6354,7 +6427,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasSpriteSortMode sortMode)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasSpriteBatch __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasSpriteBatch>(
+				global::Microsoft.Graphics.Canvas.CanvasSpriteBatch __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.ICanvasDrawingSession, global::Microsoft.Graphics.Canvas.CanvasSpriteBatch>(
 									__this, 
 									((int)sortMode), 
 									190
@@ -6453,7 +6526,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.ICanvasImage, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_84<global::Microsoft.Graphics.Canvas.ICanvasImage, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									6
@@ -6467,7 +6540,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::System.Numerics.Matrix3x2 transform)
 			{
-				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_84<global::Microsoft.Graphics.Canvas.ICanvasImage, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.ICanvasImage, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									transform, 
@@ -6490,7 +6563,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface surface)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -6506,7 +6579,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface surface, 
 						float dpi)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -6524,7 +6597,7 @@ namespace Microsoft.Graphics.Canvas
 						float dpi, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alpha)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -7093,7 +7166,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Graphics.Imaging.SoftwareBitmap sourceBitmap)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.Imaging.SoftwareBitmap, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::Microsoft.Graphics.Canvas.CanvasBitmap __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.Imaging.SoftwareBitmap, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									resourceCreator, 
 									sourceBitmap, 
@@ -7108,7 +7181,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						string fileName)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_88<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 									__this, 
 									resourceCreator, 
 									fileName, 
@@ -7231,7 +7304,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::System.Uri uri)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_88<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 									__this, 
 									resourceCreator, 
 									uri, 
@@ -7354,7 +7427,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Storage.Streams.IRandomAccessStream stream)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 									__this, 
 									resourceCreator, 
 									stream, 
@@ -7370,7 +7443,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Storage.Streams.IRandomAccessStream stream, 
 						float dpi)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 									__this, 
 									resourceCreator, 
 									stream, 
@@ -7388,7 +7461,7 @@ namespace Microsoft.Graphics.Canvas
 						float dpi, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alpha)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.ICanvasBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 									__this, 
 									resourceCreator, 
 									stream, 
@@ -7410,7 +7483,7 @@ namespace Microsoft.Graphics.Canvas
 		{
 			public static global::Windows.Graphics.Imaging.BitmapSize get_SizeInPixels(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
+				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
 									__this, 
 									6
 								);
@@ -7420,7 +7493,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
 									__this, 
 									7
 								);
@@ -7440,7 +7513,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Graphics.DirectX.DirectXPixelFormat get_Format(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.DirectX.DirectXPixelFormat __ret = global::__Interop.ForwardComStubs.Stub_96<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
+				global::Windows.Graphics.DirectX.DirectXPixelFormat __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
 									__this, 
 									9
 								);
@@ -7450,7 +7523,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
 									__this, 
 									10
 								);
@@ -7462,7 +7535,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						string fileName)
 			{
-				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Foundation.IAsyncAction>(
+				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									fileName, 
 									11
@@ -7476,7 +7549,7 @@ namespace Microsoft.Graphics.Canvas
 						string fileName, 
 						global::Microsoft.Graphics.Canvas.CanvasBitmapFileFormat fileFormat)
 			{
-				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Foundation.IAsyncAction>(
+				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_99<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									fileName, 
 									((int)fileFormat), 
@@ -7626,7 +7699,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static byte[] GetPixelBytes(global::System.__ComObject __this)
 			{
-				byte[] __ret = global::__Interop.ForwardComStubs.Stub_99<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
+				byte[] __ret = global::__Interop.ForwardComStubs.Stub_100<global::Microsoft.Graphics.Canvas.ICanvasBitmap>(
 									__this, 
 									16
 								);
@@ -7706,7 +7779,7 @@ namespace Microsoft.Graphics.Canvas
 						int width, 
 						int height)
 			{
-				global::__Interop.ForwardComStubs.Stub_100<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Storage.Streams.IBuffer>(
+				global::__Interop.ForwardComStubs.Stub_101<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									buffer, 
 									left, 
@@ -7899,7 +7972,7 @@ namespace Microsoft.Graphics.Canvas
 						int width, 
 						int height)
 			{
-				global::__Interop.ForwardComStubs.Stub_100<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Storage.Streams.IBuffer>(
+				global::__Interop.ForwardComStubs.Stub_101<global::Microsoft.Graphics.Canvas.ICanvasBitmap, global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									buffer, 
 									left, 
@@ -8083,7 +8156,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatchStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatchStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									6
@@ -8105,7 +8178,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.CanvasBitmap bitmap, 
 						global::Windows.Foundation.Rect destRect)
 			{
-				global::__Interop.ForwardComStubs.Stub_46<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::__Interop.ForwardComStubs.Stub_47<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									bitmap, 
 									destRect, 
@@ -8119,7 +8192,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.CanvasBitmap bitmap, 
 						global::System.Numerics.Vector2 offset)
 			{
-				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									bitmap, 
 									offset, 
@@ -8403,7 +8476,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Foundation.Rect destRect, 
 						global::Windows.Foundation.Rect sourceRect)
 			{
-				global::__Interop.ForwardComStubs.Stub_48<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::__Interop.ForwardComStubs.Stub_49<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									bitmap, 
 									destRect, 
@@ -8419,7 +8492,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.Numerics.Vector2 offset, 
 						global::Windows.Foundation.Rect sourceRect)
 			{
-				global::__Interop.ForwardComStubs.Stub_47<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
+				global::__Interop.ForwardComStubs.Stub_48<global::Microsoft.Graphics.Canvas.ICanvasSpriteBatch, global::Microsoft.Graphics.Canvas.CanvasBitmap>(
 									__this, 
 									bitmap, 
 									offset, 
@@ -8999,7 +9072,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.ICanvasImageStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.ICanvasImageStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									10
@@ -9021,7 +9094,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi resourceCreator, 
 						global::Windows.Foundation.Size size)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									size, 
@@ -9037,7 +9110,7 @@ namespace Microsoft.Graphics.Canvas
 						float width, 
 						float height)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -9055,7 +9128,7 @@ namespace Microsoft.Graphics.Canvas
 						float height, 
 						float dpi)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_163<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -9128,7 +9201,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface surface)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
+				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -9144,7 +9217,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface surface, 
 						float dpi)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
+				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -9162,7 +9235,7 @@ namespace Microsoft.Graphics.Canvas
 						float dpi, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alpha)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
+				global::Microsoft.Graphics.Canvas.CanvasRenderTarget __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.ICanvasRenderTargetStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface, global::Microsoft.Graphics.Canvas.CanvasRenderTarget>(
 									__this, 
 									resourceCreator, 
 									surface, 
@@ -9205,7 +9278,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						string fileName)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_88<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
 									__this, 
 									resourceCreator, 
 									fileName, 
@@ -9221,7 +9294,7 @@ namespace Microsoft.Graphics.Canvas
 						string fileName, 
 						global::Microsoft.Graphics.Canvas.CanvasVirtualBitmapOptions options)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_163<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_164<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
 									__this, 
 									resourceCreator, 
 									fileName, 
@@ -9292,7 +9365,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::System.Uri uri)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_88<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
 									__this, 
 									resourceCreator, 
 									uri, 
@@ -9415,7 +9488,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Storage.Streams.IRandomAccessStream stream)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.ICanvasVirtualBitmapStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
 									__this, 
 									resourceCreator, 
 									stream, 
@@ -9548,7 +9621,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi resourceCreator, 
 						global::Windows.Foundation.Size size)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									size, 
@@ -9564,7 +9637,7 @@ namespace Microsoft.Graphics.Canvas
 						float width, 
 						float height)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -9582,7 +9655,7 @@ namespace Microsoft.Graphics.Canvas
 						float height, 
 						float dpi)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_163<global::Microsoft.Graphics.Canvas.ICanvasSwapChainFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -9658,7 +9731,7 @@ namespace Microsoft.Graphics.Canvas
 						global::Windows.UI.Core.CoreWindow coreWindow, 
 						float dpi)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasSwapChain __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.ICanvasSwapChainStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.UI.Core.CoreWindow, global::Microsoft.Graphics.Canvas.CanvasSwapChain>(
+				global::Microsoft.Graphics.Canvas.CanvasSwapChain __ret = global::__Interop.ForwardComStubs.Stub_86<global::Microsoft.Graphics.Canvas.ICanvasSwapChainStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.UI.Core.CoreWindow, global::Microsoft.Graphics.Canvas.CanvasSwapChain>(
 									__this, 
 									resourceCreator, 
 									coreWindow, 
@@ -9752,7 +9825,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						int syncInterval)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									syncInterval, 
 									7
@@ -9764,7 +9837,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size newSize)
 			{
-				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									newSize, 
 									8
@@ -9777,7 +9850,7 @@ namespace Microsoft.Graphics.Canvas
 						float newWidth, 
 						float newHeight)
 			{
-				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									newWidth, 
 									newHeight, 
@@ -9792,7 +9865,7 @@ namespace Microsoft.Graphics.Canvas
 						float newHeight, 
 						float newDpi)
 			{
-				global::__Interop.ForwardComStubs.Stub_168<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_169<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									newWidth, 
 									newHeight, 
@@ -9831,7 +9904,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									12
 								);
@@ -9841,7 +9914,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Graphics.Imaging.BitmapSize get_SizeInPixels(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									13
 								);
@@ -9851,7 +9924,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Graphics.DirectX.DirectXPixelFormat get_Format(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.DirectX.DirectXPixelFormat __ret = global::__Interop.ForwardComStubs.Stub_96<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::Windows.Graphics.DirectX.DirectXPixelFormat __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									14
 								);
@@ -9871,7 +9944,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									16
 								);
@@ -9914,7 +9987,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::Windows.Foundation.Size get_SourceSize(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									19
 								);
@@ -9926,7 +9999,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size value)
 			{
-				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									value, 
 									20
@@ -9936,7 +10009,7 @@ namespace Microsoft.Graphics.Canvas
 
 			public static global::System.Numerics.Matrix3x2 get_TransformMatrix(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									21
 								);
@@ -9948,7 +10021,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::System.Numerics.Matrix3x2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
+				global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.ICanvasSwapChain>(
 									__this, 
 									value, 
 									22
@@ -9960,7 +10033,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color clearColor)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_166<global::Microsoft.Graphics.Canvas.ICanvasSwapChain, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_167<global::Microsoft.Graphics.Canvas.ICanvasSwapChain, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									clearColor, 
 									23
@@ -9990,7 +10063,7 @@ namespace Microsoft.Graphics.Canvas
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.ICanvasCommandListFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.ICanvasCommandListFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									6
@@ -10040,7 +10113,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 		{
 			public static float get_Opacity(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									6
 								);
@@ -10052,7 +10125,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									value, 
 									7
@@ -10062,7 +10135,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::System.Numerics.Matrix3x2 get_Transform(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									8
 								);
@@ -10074,7 +10147,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Matrix3x2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									value, 
 									9
@@ -10203,7 +10276,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 		{
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
 									__this, 
 									6
 								);
@@ -10215,7 +10288,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
 									__this, 
 									value, 
 									7
@@ -10225,7 +10298,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::System.Numerics.Vector4 get_ColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
 									__this, 
 									8
 								);
@@ -10237,7 +10310,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Brushes.ICanvasSolidColorBrush>(
 									__this, 
 									value, 
 									9
@@ -10257,7 +10330,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									6
@@ -10345,7 +10418,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_ExtendX(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
 									__this, 
 									8
 								);
@@ -10367,7 +10440,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_ExtendY(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
 									__this, 
 									10
 								);
@@ -10466,7 +10539,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Brushes.ICanvasImageBrush>(
 									__this, 
 									14
 								);
@@ -10500,7 +10573,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Windows.UI.Color startColor, 
 						global::Windows.UI.Color endColor)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_150<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									startColor, 
@@ -10516,7 +10589,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] gradientStops)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_150<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_151<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10533,7 +10606,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior edgeBehavior, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_151<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_152<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10555,7 +10628,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasColorSpace postInterpolationSpace, 
 						global::Microsoft.Graphics.Canvas.CanvasBufferPrecision bufferPrecision)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_152<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_153<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10584,7 +10657,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.Numerics.Vector4 startColorHdr, 
 						global::System.Numerics.Vector4 endColorHdr)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_153<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_154<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
 									__this, 
 									resourceCreator, 
 									startColorHdr, 
@@ -10600,7 +10673,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] gradientStopsHdr)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_154<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_155<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStopsHdr, 
@@ -10617,7 +10690,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior edgeBehavior, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_155<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_156<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStopsHdr, 
@@ -10639,7 +10712,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasColorSpace postInterpolationSpace, 
 						global::Microsoft.Graphics.Canvas.CanvasBufferPrecision bufferPrecision)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_156<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_157<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStopsHdr, 
@@ -10659,7 +10732,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						float eldritchness)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush>(
 									__this, 
 									resourceCreator, 
 									eldritchness, 
@@ -10679,7 +10752,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 		{
 			public static global::System.Numerics.Vector2 get_StartPoint(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									6
 								);
@@ -10691,7 +10764,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									value, 
 									7
@@ -10701,7 +10774,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::System.Numerics.Vector2 get_EndPoint(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									8
 								);
@@ -10713,7 +10786,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									value, 
 									9
@@ -10723,7 +10796,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] get_Stops(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] __ret = global::__Interop.ForwardComStubs.Stub_157<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] __ret = global::__Interop.ForwardComStubs.Stub_158<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									10
 								);
@@ -10733,7 +10806,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] get_StopsHdr(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] __ret = global::__Interop.ForwardComStubs.Stub_158<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									11
 								);
@@ -10743,7 +10816,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_EdgeBehavior(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									12
 								);
@@ -10753,7 +10826,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasColorSpace get_PreInterpolationSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									13
 								);
@@ -10763,7 +10836,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasColorSpace get_PostInterpolationSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									14
 								);
@@ -10773,7 +10846,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasBufferPrecision get_BufferPrecision(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_141<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_142<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									15
 								);
@@ -10783,7 +10856,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Brushes.ICanvasLinearGradientBrush>(
 									__this, 
 									16
 								);
@@ -10805,7 +10878,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Windows.UI.Color startColor, 
 						global::Windows.UI.Color endColor)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_150<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									startColor, 
@@ -10821,7 +10894,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] gradientStops)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_150<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_151<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10838,7 +10911,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior edgeBehavior, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_151<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_152<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10860,7 +10933,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasColorSpace postInterpolationSpace, 
 						global::Microsoft.Graphics.Canvas.CanvasBufferPrecision bufferPrecision)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_152<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_153<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10889,7 +10962,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.Numerics.Vector4 startColorHdr, 
 						global::System.Numerics.Vector4 endColorHdr)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_153<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_154<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
 									__this, 
 									resourceCreator, 
 									startColorHdr, 
@@ -10905,7 +10978,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] gradientStops)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_154<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_155<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10922,7 +10995,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior edgeBehavior, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_155<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_156<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10944,7 +11017,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.CanvasColorSpace postInterpolationSpace, 
 						global::Microsoft.Graphics.Canvas.CanvasBufferPrecision bufferPrecision)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_156<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_157<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
 									__this, 
 									resourceCreator, 
 									gradientStops, 
@@ -10964,7 +11037,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						float eldritchness)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrushStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush>(
 									__this, 
 									resourceCreator, 
 									eldritchness, 
@@ -10984,7 +11057,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 		{
 			public static global::System.Numerics.Vector2 get_Center(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									6
 								);
@@ -10996,7 +11069,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									value, 
 									7
@@ -11006,7 +11079,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::System.Numerics.Vector2 get_OriginOffset(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									8
 								);
@@ -11018,7 +11091,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									value, 
 									9
@@ -11028,7 +11101,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static float get_RadiusX(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									10
 								);
@@ -11040,7 +11113,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									value, 
 									11
@@ -11050,7 +11123,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static float get_RadiusY(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									12
 								);
@@ -11062,7 +11135,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									value, 
 									13
@@ -11072,7 +11145,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] get_Stops(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] __ret = global::__Interop.ForwardComStubs.Stub_157<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop[] __ret = global::__Interop.ForwardComStubs.Stub_158<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									14
 								);
@@ -11082,7 +11155,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] get_StopsHdr(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] __ret = global::__Interop.ForwardComStubs.Stub_158<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr[] __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									15
 								);
@@ -11092,7 +11165,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_EdgeBehavior(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									16
 								);
@@ -11102,7 +11175,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasColorSpace get_PreInterpolationSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									17
 								);
@@ -11112,7 +11185,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasColorSpace get_PostInterpolationSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									18
 								);
@@ -11122,7 +11195,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasBufferPrecision get_BufferPrecision(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_141<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_142<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									19
 								);
@@ -11132,7 +11205,7 @@ namespace Microsoft.Graphics.Canvas.Brushes
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Brushes.ICanvasRadialGradientBrush>(
 									__this, 
 									20
 								);
@@ -11381,7 +11454,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source1Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									23
 								);
@@ -11391,7 +11464,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source2Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									24
 								);
@@ -11401,7 +11474,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source3Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									25
 								);
@@ -11411,7 +11484,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source4Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									26
 								);
@@ -11421,7 +11494,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source5Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									27
 								);
@@ -11431,7 +11504,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source6Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									28
 								);
@@ -11441,7 +11514,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source7Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									29
 								);
@@ -11451,7 +11524,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping get_Source8Mapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.SamplerCoordinateMapping __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									30
 								);
@@ -11557,7 +11630,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source1BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									39
 								);
@@ -11567,7 +11640,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source2BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									40
 								);
@@ -11577,7 +11650,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source3BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									41
 								);
@@ -11587,7 +11660,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source4BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									42
 								);
@@ -11597,7 +11670,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source5BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									43
 								);
@@ -11607,7 +11680,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source6BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									44
 								);
@@ -11617,7 +11690,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source7BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									45
 								);
@@ -11627,7 +11700,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_Source8BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									46
 								);
@@ -11745,7 +11818,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									value, 
 									56
@@ -11755,7 +11828,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source1Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									57
 								);
@@ -11765,7 +11838,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source2Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									58
 								);
@@ -11775,7 +11848,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source3Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									59
 								);
@@ -11785,7 +11858,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source4Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									60
 								);
@@ -11795,7 +11868,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source5Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									61
 								);
@@ -11805,7 +11878,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source6Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									62
 								);
@@ -11815,7 +11888,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source7Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									63
 								);
@@ -11825,7 +11898,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_Source8Interpolation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect>(
 									__this, 
 									64
 								);
@@ -11933,7 +12006,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.Effects.IPixelShaderEffect, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									73
@@ -11964,7 +12037,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
 									__this, 
 									value, 
 									7
@@ -11974,7 +12047,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> get_BufferPrecision(global::System.__ComObject __this)
 			{
-				global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> __ret = global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
+				global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> __ret = global::__Interop.ForwardComStubs.Stub_76<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
 									__this, 
 									8
 								);
@@ -11986,7 +12059,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Nullable<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision> value)
 			{
-				global::__Interop.ForwardComStubs.Stub_76<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
+				global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.Effects.ICanvasEffect>(
 									__this, 
 									value, 
 									9
@@ -12245,7 +12318,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasColorSpace colorSpace)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfileFactory>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfileFactory>(
 									__this, 
 									((int)colorSpace), 
 									6
@@ -12348,7 +12421,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Effects.ExtendedColorSpace colorSpace)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.ColorManagementProfile __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfileStatics, global::Microsoft.Graphics.Canvas.Effects.ColorManagementProfile>(
+				global::Microsoft.Graphics.Canvas.Effects.ColorManagementProfile __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfileStatics, global::Microsoft.Graphics.Canvas.Effects.ColorManagementProfile>(
 									__this, 
 									((int)colorSpace), 
 									8
@@ -12407,7 +12480,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasColorSpace get_ColorSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_159<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfile>(
+				global::Microsoft.Graphics.Canvas.CanvasColorSpace __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfile>(
 									__this, 
 									6
 								);
@@ -12417,7 +12490,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static byte[] get_IccProfile(global::System.__ComObject __this)
 			{
-				byte[] __ret = global::__Interop.ForwardComStubs.Stub_99<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfile>(
+				byte[] __ret = global::__Interop.ForwardComStubs.Stub_100<global::Microsoft.Graphics.Canvas.Effects.IColorManagementProfile>(
 									__this, 
 									7
 								);
@@ -12748,7 +12821,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									value, 
 									7
@@ -12758,7 +12831,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_MultiplyAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									8
 								);
@@ -12770,7 +12843,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									value, 
 									9
@@ -12780,7 +12853,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Source1Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									10
 								);
@@ -12792,7 +12865,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									value, 
 									11
@@ -12802,7 +12875,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Source2Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									12
 								);
@@ -12814,7 +12887,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									value, 
 									13
@@ -12824,7 +12897,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Offset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									14
 								);
@@ -12836,7 +12909,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IArithmeticCompositeEffect>(
 									__this, 
 									value, 
 									15
@@ -12910,7 +12983,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect value)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.Effects.IAtlasEffect>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IAtlasEffect>(
 									__this, 
 									value, 
 									7
@@ -12932,7 +13005,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect value)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.Effects.IAtlasEffect>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IAtlasEffect>(
 									__this, 
 									value, 
 									9
@@ -13057,7 +13130,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_ExtendX(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IBorderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IBorderEffect>(
 									__this, 
 									6
 								);
@@ -13079,7 +13152,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior get_ExtendY(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IBorderEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IBorderEffect>(
 									__this, 
 									8
 								);
@@ -13131,7 +13204,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector2 get_WhitePoint(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
 									__this, 
 									6
 								);
@@ -13143,7 +13216,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
 									__this, 
 									value, 
 									7
@@ -13153,7 +13226,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_BlackPoint(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
 									__this, 
 									8
 								);
@@ -13165,7 +13238,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IBrightnessEffect>(
 									__this, 
 									value, 
 									9
@@ -13205,7 +13278,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									6
 								);
@@ -13217,7 +13290,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									value, 
 									7
@@ -13227,7 +13300,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Tolerance(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									8
 								);
@@ -13239,7 +13312,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									value, 
 									9
@@ -13261,7 +13334,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									value, 
 									11
@@ -13283,7 +13356,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									value, 
 									13
@@ -13293,7 +13366,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_ColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									14
 								);
@@ -13305,7 +13378,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IChromaKeyEffect>(
 									__this, 
 									value, 
 									15
@@ -13347,7 +13420,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffectStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffectStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									6
@@ -13388,7 +13461,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent get_SourceRenderingIntent(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent __ret = global::__Interop.ForwardComStubs.Stub_175<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
 									__this, 
 									8
 								);
@@ -13432,7 +13505,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent get_OutputRenderingIntent(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.ColorManagementRenderingIntent __ret = global::__Interop.ForwardComStubs.Stub_175<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
 									__this, 
 									12
 								);
@@ -13454,7 +13527,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Effects.IColorManagementEffect>(
 									__this, 
 									14
 								);
@@ -13579,7 +13652,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Effects.IColorMatrixEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Effects.IColorMatrixEffect>(
 									__this, 
 									8
 								);
@@ -13613,7 +13686,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IColorMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IColorMatrixEffect>(
 									__this, 
 									value, 
 									11
@@ -13653,7 +13726,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
 									__this, 
 									6
 								);
@@ -13665,7 +13738,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
 									__this, 
 									value, 
 									7
@@ -13675,7 +13748,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_ColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
 									__this, 
 									8
 								);
@@ -13687,7 +13760,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IColorSourceEffect>(
 									__this, 
 									value, 
 									9
@@ -13756,7 +13829,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Contrast(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
 									__this, 
 									6
 								);
@@ -13768,7 +13841,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
 									__this, 
 									value, 
 									7
@@ -13790,7 +13863,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IContrastEffect>(
 									__this, 
 									value, 
 									9
@@ -13830,7 +13903,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector2 get_KernelScale(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									6
 								);
@@ -13842,7 +13915,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									7
@@ -13852,7 +13925,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									8
 								);
@@ -13886,7 +13959,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									11
@@ -13908,7 +13981,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									13
@@ -13918,7 +13991,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_KernelMatrix(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									14
 								);
@@ -13930,7 +14003,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									valueElements, 
 									15
@@ -13940,7 +14013,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Divisor(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									16
 								);
@@ -13952,7 +14025,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									17
@@ -13962,7 +14035,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Offset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									18
 								);
@@ -13974,7 +14047,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									19
@@ -13984,7 +14057,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_KernelOffset(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									20
 								);
@@ -13996,7 +14069,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									21
@@ -14018,7 +14091,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									23
@@ -14028,7 +14101,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									24
 								);
@@ -14062,7 +14135,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IConvolveMatrixEffect>(
 									__this, 
 									value, 
 									27
@@ -14114,7 +14187,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect value)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.Effects.ICropEffect>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.ICropEffect>(
 									__this, 
 									value, 
 									7
@@ -14124,7 +14197,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.ICropEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.ICropEffect>(
 									__this, 
 									8
 								);
@@ -14194,7 +14267,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_CrossFade(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ICrossFadeEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ICrossFadeEffect>(
 									__this, 
 									6
 								);
@@ -14206,7 +14279,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ICrossFadeEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ICrossFadeEffect>(
 									__this, 
 									value, 
 									7
@@ -14268,7 +14341,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_BlurAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									6
 								);
@@ -14280,7 +14353,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									value, 
 									7
@@ -14290,7 +14363,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Angle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									8
 								);
@@ -14302,7 +14375,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									value, 
 									9
@@ -14312,7 +14385,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectOptimization get_Optimization(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_175<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_176<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									10
 								);
@@ -14334,7 +14407,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IDirectionalBlurEffect>(
 									__this, 
 									12
 								);
@@ -14386,7 +14459,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float[] get_RedTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									6
 								);
@@ -14398,7 +14471,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									valueElements, 
 									7
@@ -14420,7 +14493,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									value, 
 									9
@@ -14430,7 +14503,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_GreenTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									10
 								);
@@ -14442,7 +14515,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									valueElements, 
 									11
@@ -14464,7 +14537,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									value, 
 									13
@@ -14474,7 +14547,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_BlueTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									14
 								);
@@ -14486,7 +14559,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									valueElements, 
 									15
@@ -14508,7 +14581,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									value, 
 									17
@@ -14518,7 +14591,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_AlphaTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									18
 								);
@@ -14530,7 +14603,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									valueElements, 
 									19
@@ -14552,7 +14625,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									value, 
 									21
@@ -14574,7 +14647,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IDiscreteTransferEffect>(
 									__this, 
 									value, 
 									23
@@ -14614,7 +14687,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
 									__this, 
 									6
 								);
@@ -14626,7 +14699,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
 									__this, 
 									value, 
 									7
@@ -14636,7 +14709,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect get_XChannelSelect(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect __ret = global::__Interop.ForwardComStubs.Stub_176<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect __ret = global::__Interop.ForwardComStubs.Stub_177<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
 									__this, 
 									8
 								);
@@ -14658,7 +14731,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect get_YChannelSelect(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect __ret = global::__Interop.ForwardComStubs.Stub_176<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectChannelSelect __ret = global::__Interop.ForwardComStubs.Stub_177<global::Microsoft.Graphics.Canvas.Effects.IDisplacementMapEffect>(
 									__this, 
 									10
 								);
@@ -14732,7 +14805,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Azimuth(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									6
 								);
@@ -14744,7 +14817,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									7
@@ -14754,7 +14827,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Elevation(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									8
 								);
@@ -14766,7 +14839,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									9
@@ -14776,7 +14849,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_DiffuseAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									10
 								);
@@ -14788,7 +14861,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									11
@@ -14798,7 +14871,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									12
 								);
@@ -14810,7 +14883,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									13
@@ -14820,7 +14893,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									14
 								);
@@ -14832,7 +14905,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									15
@@ -14842,7 +14915,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									16
 								);
@@ -14854,7 +14927,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									17
@@ -14864,7 +14937,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									18
 								);
@@ -14886,7 +14959,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									20
 								);
@@ -14898,7 +14971,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IDistantDiffuseEffect>(
 									__this, 
 									value, 
 									21
@@ -14938,7 +15011,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Azimuth(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									6
 								);
@@ -14950,7 +15023,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									7
@@ -14960,7 +15033,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Elevation(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									8
 								);
@@ -14972,7 +15045,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									9
@@ -14982,7 +15055,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									10
 								);
@@ -14994,7 +15067,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									11
@@ -15004,7 +15077,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									12
 								);
@@ -15016,7 +15089,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									13
@@ -15026,7 +15099,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									14
 								);
@@ -15038,7 +15111,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									15
@@ -15048,7 +15121,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									16
 								);
@@ -15060,7 +15133,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									17
@@ -15070,7 +15143,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									18
 								);
@@ -15082,7 +15155,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									19
@@ -15092,7 +15165,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									20
 								);
@@ -15114,7 +15187,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									22
 								);
@@ -15126,7 +15199,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IDistantSpecularEffect>(
 									__this, 
 									value, 
 									23
@@ -15166,7 +15239,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
 									__this, 
 									6
 								);
@@ -15188,7 +15261,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
 									__this, 
 									8
 								);
@@ -15210,7 +15283,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_SourceDpi(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
 									__this, 
 									10
 								);
@@ -15222,7 +15295,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IDpiCompensationEffect>(
 									__this, 
 									value, 
 									11
@@ -15262,7 +15335,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									6
 								);
@@ -15274,7 +15347,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									value, 
 									7
@@ -15284,7 +15357,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlurAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									8
 								);
@@ -15296,7 +15369,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									value, 
 									9
@@ -15351,7 +15424,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									value, 
 									13
@@ -15361,7 +15434,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Effects.IEdgeDetectionEffect>(
 									__this, 
 									14
 								);
@@ -15413,7 +15486,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
 									__this, 
 									6
 								);
@@ -15425,7 +15498,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
 									__this, 
 									value, 
 									7
@@ -15435,7 +15508,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Angle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
 									__this, 
 									8
 								);
@@ -15447,7 +15520,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IEmbossEffect>(
 									__this, 
 									value, 
 									9
@@ -15487,7 +15560,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Exposure(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IExposureEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IExposureEffect>(
 									__this, 
 									6
 								);
@@ -15499,7 +15572,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IExposureEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IExposureEffect>(
 									__this, 
 									value, 
 									7
@@ -15539,7 +15612,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_RedAmplitude(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									6
 								);
@@ -15551,7 +15624,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									7
@@ -15561,7 +15634,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_RedExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									8
 								);
@@ -15573,7 +15646,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									9
@@ -15583,7 +15656,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_RedOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									10
 								);
@@ -15595,7 +15668,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									11
@@ -15617,7 +15690,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									13
@@ -15627,7 +15700,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_GreenAmplitude(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									14
 								);
@@ -15639,7 +15712,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									15
@@ -15649,7 +15722,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_GreenExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									16
 								);
@@ -15661,7 +15734,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									17
@@ -15671,7 +15744,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_GreenOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									18
 								);
@@ -15683,7 +15756,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									19
@@ -15705,7 +15778,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									21
@@ -15715,7 +15788,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlueAmplitude(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									22
 								);
@@ -15727,7 +15800,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									23
@@ -15737,7 +15810,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlueExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									24
 								);
@@ -15749,7 +15822,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									25
@@ -15759,7 +15832,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlueOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									26
 								);
@@ -15771,7 +15844,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									27
@@ -15793,7 +15866,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									29
@@ -15803,7 +15876,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_AlphaAmplitude(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									30
 								);
@@ -15815,7 +15888,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									31
@@ -15825,7 +15898,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_AlphaExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									32
 								);
@@ -15837,7 +15910,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									33
@@ -15847,7 +15920,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_AlphaOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									34
 								);
@@ -15859,7 +15932,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									35
@@ -15881,7 +15954,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									37
@@ -15903,7 +15976,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IGammaTransferEffect>(
 									__this, 
 									value, 
 									39
@@ -15943,7 +16016,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_BlurAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
 									__this, 
 									6
 								);
@@ -15955,7 +16028,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
 									__this, 
 									value, 
 									7
@@ -15965,7 +16038,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectOptimization get_Optimization(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_175<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_176<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
 									__this, 
 									8
 								);
@@ -15987,7 +16060,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IGaussianBlurEffect>(
 									__this, 
 									10
 								);
@@ -16069,7 +16142,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Highlights(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									6
 								);
@@ -16081,7 +16154,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									value, 
 									7
@@ -16091,7 +16164,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Shadows(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									8
 								);
@@ -16103,7 +16176,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									value, 
 									9
@@ -16113,7 +16186,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Clarity(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									10
 								);
@@ -16125,7 +16198,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									value, 
 									11
@@ -16135,7 +16208,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_MaskBlurAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									12
 								);
@@ -16147,7 +16220,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									value, 
 									13
@@ -16169,7 +16242,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IHighlightsAndShadowsEffect>(
 									__this, 
 									value, 
 									15
@@ -16209,7 +16282,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Angle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IHueRotationEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHueRotationEffect>(
 									__this, 
 									6
 								);
@@ -16221,7 +16294,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IHueRotationEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IHueRotationEffect>(
 									__this, 
 									value, 
 									7
@@ -16261,7 +16334,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace get_SourceColorSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace __ret = global::__Interop.ForwardComStubs.Stub_177<global::Microsoft.Graphics.Canvas.Effects.IHueToRgbEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.IHueToRgbEffect>(
 									__this, 
 									6
 								);
@@ -16343,7 +16416,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_RedOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									6
 								);
@@ -16355,7 +16428,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									7
@@ -16365,7 +16438,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_RedSlope(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									8
 								);
@@ -16377,7 +16450,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									9
@@ -16399,7 +16472,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									11
@@ -16409,7 +16482,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_GreenOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									12
 								);
@@ -16421,7 +16494,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									13
@@ -16431,7 +16504,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_GreenSlope(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									14
 								);
@@ -16443,7 +16516,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									15
@@ -16465,7 +16538,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									17
@@ -16475,7 +16548,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlueOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									18
 								);
@@ -16487,7 +16560,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									19
@@ -16497,7 +16570,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_BlueSlope(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									20
 								);
@@ -16509,7 +16582,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									21
@@ -16531,7 +16604,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									23
@@ -16541,7 +16614,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_AlphaOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									24
 								);
@@ -16553,7 +16626,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									25
@@ -16563,7 +16636,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_AlphaSlope(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									26
 								);
@@ -16575,7 +16648,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									27
@@ -16597,7 +16670,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									29
@@ -16619,7 +16692,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ILinearTransferEffect>(
 									__this, 
 									value, 
 									31
@@ -16734,7 +16807,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IMorphologyEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IMorphologyEffect>(
 									__this, 
 									value, 
 									9
@@ -16756,7 +16829,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IMorphologyEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IMorphologyEffect>(
 									__this, 
 									value, 
 									11
@@ -16814,7 +16887,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Opacity(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IOpacityEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IOpacityEffect>(
 									__this, 
 									6
 								);
@@ -16826,7 +16899,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IOpacityEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IOpacityEffect>(
 									__this, 
 									value, 
 									7
@@ -16878,7 +16951,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect value)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.Effects.IOpacityMetadataEffect>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.IOpacityMetadataEffect>(
 									__this, 
 									value, 
 									7
@@ -16918,7 +16991,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector3 get_LightPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									6
 								);
@@ -16930,7 +17003,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									7
@@ -16940,7 +17013,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_DiffuseAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									8
 								);
@@ -16952,7 +17025,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									9
@@ -16962,7 +17035,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									10
 								);
@@ -16974,7 +17047,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									11
@@ -16984,7 +17057,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									12
 								);
@@ -16996,7 +17069,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									13
@@ -17006,7 +17079,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									14
 								);
@@ -17018,7 +17091,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									15
@@ -17028,7 +17101,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									16
 								);
@@ -17050,7 +17123,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									18
 								);
@@ -17062,7 +17135,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IPointDiffuseEffect>(
 									__this, 
 									value, 
 									19
@@ -17102,7 +17175,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector3 get_LightPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									6
 								);
@@ -17114,7 +17187,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									7
@@ -17124,7 +17197,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									8
 								);
@@ -17136,7 +17209,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									9
@@ -17146,7 +17219,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									10
 								);
@@ -17158,7 +17231,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									11
@@ -17168,7 +17241,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									12
 								);
@@ -17180,7 +17253,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									13
@@ -17190,7 +17263,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									14
 								);
@@ -17202,7 +17275,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									15
@@ -17212,7 +17285,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									16
 								);
@@ -17224,7 +17297,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									17
@@ -17234,7 +17307,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									18
 								);
@@ -17256,7 +17329,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									20
 								);
@@ -17268,7 +17341,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IPointSpecularEffect>(
 									__this, 
 									value, 
 									21
@@ -17320,7 +17393,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
 									__this, 
 									value, 
 									7
@@ -17342,7 +17415,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
 									__this, 
 									value, 
 									9
@@ -17364,7 +17437,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.IPosterizeEffect>(
 									__this, 
 									value, 
 									11
@@ -17434,7 +17507,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace get_OutputColorSpace(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace __ret = global::__Interop.ForwardComStubs.Stub_177<global::Microsoft.Graphics.Canvas.Effects.IRgbToHueEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectHueColorSpace __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.IRgbToHueEffect>(
 									__this, 
 									6
 								);
@@ -17486,7 +17559,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Saturation(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISaturationEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISaturationEffect>(
 									__this, 
 									6
 								);
@@ -17498,7 +17571,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISaturationEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISaturationEffect>(
 									__this, 
 									value, 
 									7
@@ -17538,7 +17611,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector2 get_Scale(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									6
 								);
@@ -17550,7 +17623,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									value, 
 									7
@@ -17560,7 +17633,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_CenterPoint(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									8
 								);
@@ -17572,7 +17645,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									value, 
 									9
@@ -17582,7 +17655,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									10
 								);
@@ -17604,7 +17677,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									12
 								);
@@ -17626,7 +17699,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Sharpness(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									14
 								);
@@ -17638,7 +17711,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IScaleEffect>(
 									__this, 
 									value, 
 									15
@@ -17678,7 +17751,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Intensity(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
 									__this, 
 									6
 								);
@@ -17690,7 +17763,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
 									__this, 
 									value, 
 									7
@@ -17700,7 +17773,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Effects.ISepiaEffect>(
 									__this, 
 									8
 								);
@@ -17752,7 +17825,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_BlurAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									6
 								);
@@ -17764,7 +17837,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									value, 
 									7
@@ -17774,7 +17847,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_ShadowColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									8
 								);
@@ -17786,7 +17859,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									value, 
 									9
@@ -17796,7 +17869,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectOptimization get_Optimization(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_175<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectOptimization __ret = global::__Interop.ForwardComStubs.Stub_176<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									10
 								);
@@ -17818,7 +17891,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_ShadowColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									12
 								);
@@ -17830,7 +17903,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IShadowEffect>(
 									__this, 
 									value, 
 									13
@@ -17870,7 +17943,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
 									__this, 
 									6
 								);
@@ -17882,7 +17955,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
 									__this, 
 									value, 
 									7
@@ -17892,7 +17965,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Threshold(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
 									__this, 
 									8
 								);
@@ -17904,7 +17977,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISharpenEffect>(
 									__this, 
 									value, 
 									9
@@ -17944,7 +18017,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector3 get_LightPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									6
 								);
@@ -17956,7 +18029,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									7
@@ -17966,7 +18039,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector3 get_LightTarget(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									8
 								);
@@ -17978,7 +18051,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									9
@@ -17988,7 +18061,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Focus(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									10
 								);
@@ -18000,7 +18073,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									11
@@ -18010,7 +18083,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_LimitingConeAngle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									12
 								);
@@ -18022,7 +18095,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									13
@@ -18032,7 +18105,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_DiffuseAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									14
 								);
@@ -18044,7 +18117,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									15
@@ -18054,7 +18127,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									16
 								);
@@ -18066,7 +18139,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									17
@@ -18076,7 +18149,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									18
 								);
@@ -18088,7 +18161,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									19
@@ -18098,7 +18171,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									20
 								);
@@ -18110,7 +18183,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									21
@@ -18120,7 +18193,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									22
 								);
@@ -18142,7 +18215,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									24
 								);
@@ -18154,7 +18227,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.ISpotDiffuseEffect>(
 									__this, 
 									value, 
 									25
@@ -18194,7 +18267,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector3 get_LightPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									6
 								);
@@ -18206,7 +18279,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									7
@@ -18216,7 +18289,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector3 get_LightTarget(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									8
 								);
@@ -18228,7 +18301,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector3 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_179<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									9
@@ -18238,7 +18311,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Focus(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									10
 								);
@@ -18250,7 +18323,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									11
@@ -18260,7 +18333,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_LimitingConeAngle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									12
 								);
@@ -18272,7 +18345,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									13
@@ -18282,7 +18355,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularExponent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									14
 								);
@@ -18294,7 +18367,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									15
@@ -18304,7 +18377,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_SpecularAmount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									16
 								);
@@ -18316,7 +18389,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									17
@@ -18326,7 +18399,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_HeightMapScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									18
 								);
@@ -18338,7 +18411,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									19
@@ -18348,7 +18421,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Windows.UI.Color get_LightColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									20
 								);
@@ -18360,7 +18433,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									21
@@ -18370,7 +18443,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_HeightMapKernelSize(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									22
 								);
@@ -18382,7 +18455,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									23
@@ -18392,7 +18465,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_HeightMapInterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									24
 								);
@@ -18414,7 +18487,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_LightColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									26
 								);
@@ -18426,7 +18499,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.ISpotSpecularEffect>(
 									__this, 
 									value, 
 									27
@@ -18466,7 +18539,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Angle(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
 									__this, 
 									6
 								);
@@ -18478,7 +18551,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
 									__this, 
 									value, 
 									7
@@ -18500,7 +18573,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
 									__this, 
 									value, 
 									9
@@ -18510,7 +18583,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.IStraightenEffect>(
 									__this, 
 									10
 								);
@@ -18562,7 +18635,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float[] get_RedTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									6
 								);
@@ -18574,7 +18647,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									valueElements, 
 									7
@@ -18596,7 +18669,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									value, 
 									9
@@ -18606,7 +18679,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_GreenTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									10
 								);
@@ -18618,7 +18691,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									valueElements, 
 									11
@@ -18640,7 +18713,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									value, 
 									13
@@ -18650,7 +18723,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_BlueTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									14
 								);
@@ -18662,7 +18735,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									valueElements, 
 									15
@@ -18684,7 +18757,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									value, 
 									17
@@ -18694,7 +18767,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float[] get_AlphaTable(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									18
 								);
@@ -18706,7 +18779,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									valueElements, 
 									19
@@ -18728,7 +18801,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									value, 
 									21
@@ -18750,7 +18823,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITableTransferEffect>(
 									__this, 
 									value, 
 									23
@@ -18812,7 +18885,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.Effects.ITableTransfer3DEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.Effects.ITableTransfer3DEffect>(
 									__this, 
 									8
 								);
@@ -18864,7 +18937,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static float get_Temperature(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
 									__this, 
 									6
 								);
@@ -18876,7 +18949,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
 									__this, 
 									value, 
 									7
@@ -18886,7 +18959,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Tint(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
 									__this, 
 									8
 								);
@@ -18898,7 +18971,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ITemperatureAndTintEffect>(
 									__this, 
 									value, 
 									9
@@ -18950,7 +19023,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect value)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.Effects.ITileEffect>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.Effects.ITileEffect>(
 									__this, 
 									value, 
 									7
@@ -19008,7 +19081,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
 									__this, 
 									6
 								);
@@ -19020,7 +19093,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
 									__this, 
 									value, 
 									7
@@ -19042,7 +19115,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
 									__this, 
 									value, 
 									9
@@ -19052,7 +19125,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_ColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
 									__this, 
 									10
 								);
@@ -19064,7 +19137,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.ITintEffect>(
 									__this, 
 									value, 
 									11
@@ -19104,7 +19177,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									6
 								);
@@ -19126,7 +19199,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									8
 								);
@@ -19148,7 +19221,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Matrix3x2 get_TransformMatrix(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									10
 								);
@@ -19160,7 +19233,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Matrix3x2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_74<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				global::__Interop.ForwardComStubs.Stub_75<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									value, 
 									11
@@ -19170,7 +19243,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Sharpness(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									12
 								);
@@ -19182,7 +19255,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.ITransform2DEffect>(
 									__this, 
 									value, 
 									13
@@ -19222,7 +19295,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasImageInterpolation get_InterpolationMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_148<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
+				global::Microsoft.Graphics.Canvas.CanvasImageInterpolation __ret = global::__Interop.ForwardComStubs.Stub_149<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
 									__this, 
 									6
 								);
@@ -19244,7 +19317,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode get_BorderMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_173<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
+				global::Microsoft.Graphics.Canvas.Effects.EffectBorderMode __ret = global::__Interop.ForwardComStubs.Stub_174<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
 									__this, 
 									8
 								);
@@ -19266,7 +19339,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Matrix4x4 get_TransformMatrix(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix4x4 __ret = global::__Interop.ForwardComStubs.Stub_180<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
+				global::System.Numerics.Matrix4x4 __ret = global::__Interop.ForwardComStubs.Stub_181<global::Microsoft.Graphics.Canvas.Effects.ITransform3DEffect>(
 									__this, 
 									10
 								);
@@ -19325,7 +19398,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::System.Numerics.Vector2 get_Offset(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									6
 								);
@@ -19337,7 +19410,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									7
@@ -19347,7 +19420,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_Size(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									8
 								);
@@ -19359,7 +19432,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									9
@@ -19369,7 +19442,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector2 get_Frequency(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									10
 								);
@@ -19381,7 +19454,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									11
@@ -19403,7 +19476,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									13
@@ -19425,7 +19498,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									15
@@ -19480,7 +19553,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Effects.ITurbulenceEffect>(
 									__this, 
 									value, 
 									19
@@ -19528,7 +19601,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 		{
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									6
 								);
@@ -19540,7 +19613,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									value, 
 									7
@@ -19550,7 +19623,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Amount(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									8
 								);
@@ -19562,7 +19635,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									value, 
 									9
@@ -19572,7 +19645,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static float get_Curve(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									10
 								);
@@ -19584,7 +19657,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									value, 
 									11
@@ -19594,7 +19667,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 
 			public static global::System.Numerics.Vector4 get_ColorHdr(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									12
 								);
@@ -19606,7 +19679,7 @@ namespace Microsoft.Graphics.Canvas.Effects
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector4 value)
 			{
-				global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
+				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Effects.IVignetteEffect>(
 									__this, 
 									value, 
 									13
@@ -19649,7 +19722,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 		{
 			public static global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle get_StartCap(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_101<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									6
 								);
@@ -19671,7 +19744,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle get_EndCap(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_101<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									8
 								);
@@ -19693,7 +19766,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle get_DashCap(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_101<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									10
 								);
@@ -19748,7 +19821,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float get_MiterLimit(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									14
 								);
@@ -19760,7 +19833,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									value, 
 									15
@@ -19803,7 +19876,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float get_DashOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									18
 								);
@@ -19815,7 +19888,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									value, 
 									19
@@ -19825,7 +19898,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float[] get_CustomDashStyle(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									20
 								);
@@ -19837,7 +19910,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						float[] valueElements)
 			{
-				global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
+				global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Geometry.ICanvasStrokeStyle>(
 									__this, 
 									valueElements, 
 									21
@@ -19891,7 +19964,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Foundation.Rect rect)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_79<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_80<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									resourceCreator, 
 									rect, 
@@ -19909,7 +19982,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						float w, 
 						float h)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									resourceCreator, 
 									x, 
@@ -20083,7 +20156,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						float radiusX, 
 						float radiusY)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									resourceCreator, 
 									x, 
@@ -20487,7 +20560,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::System.Collections.Generic.IEnumerable<global::Windows.UI.Input.Inking.InkStroke> inkStrokes)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::System.Collections.Generic.IEnumerable<global::Windows.UI.Input.Inking.InkStroke>, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::System.Collections.Generic.IEnumerable<global::Windows.UI.Input.Inking.InkStroke>, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									resourceCreator, 
 									inkStrokes, 
@@ -20609,7 +20682,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float get_DefaultFlatteningTolerance(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometryStatics>(
 									__this, 
 									24
 								);
@@ -20629,7 +20702,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilderFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilderFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									6
@@ -20671,7 +20744,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 startPoint)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
 									__this, 
 									startPoint, 
 									7
@@ -20707,7 +20780,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						float startX, 
 						float startY)
 			{
-				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
+				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
 									__this, 
 									startX, 
 									startY, 
@@ -20799,7 +20872,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 endPoint)
 			{
-				global::__Interop.ForwardComStubs.Stub_123<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
+				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
 									__this, 
 									endPoint, 
 									13
@@ -20812,7 +20885,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						float x, 
 						float y)
 			{
-				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
+				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.Geometry.ICanvasPathBuilder>(
 									__this, 
 									x, 
 									y, 
@@ -21005,7 +21078,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						float strokeWidth)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_79<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									strokeWidth, 
 									8
@@ -21019,7 +21092,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						float strokeWidth, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle strokeStyle)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_80<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									strokeWidth, 
 									strokeStyle, 
@@ -21130,7 +21203,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometrySimplification simplification)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									((int)simplification), 
 									13
@@ -21297,7 +21370,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float ComputeArea(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
 									__this, 
 									18
 								);
@@ -21310,7 +21383,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.Numerics.Matrix3x2 transform, 
 						float flatteningTolerance)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_133<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
 									__this, 
 									transform, 
 									flatteningTolerance, 
@@ -21322,7 +21395,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 
 			public static float ComputePathLength(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
 									__this, 
 									20
 								);
@@ -21335,7 +21408,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.Numerics.Matrix3x2 transform, 
 						float flatteningTolerance)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_133<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
 									__this, 
 									transform, 
 									flatteningTolerance, 
@@ -21435,7 +21508,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 point)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_132<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_133<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGeometry>(
 									__this, 
 									point, 
 									25
@@ -21867,7 +21940,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry geometry, 
 						float flatteningTolerance)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Geometry.ICanvasCachedGeometryStatics, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Geometry.ICanvasCachedGeometryStatics, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
 									__this, 
 									geometry, 
 									flatteningTolerance, 
@@ -21882,7 +21955,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry geometry, 
 						float strokeWidth)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry __ret = global::__Interop.ForwardComStubs.Stub_134<global::Microsoft.Graphics.Canvas.Geometry.ICanvasCachedGeometryStatics, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Geometry.ICanvasCachedGeometryStatics, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry, global::Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry>(
 									__this, 
 									geometry, 
 									strokeWidth, 
@@ -22101,7 +22174,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.Numerics.Vector4[] colors, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge[] edges)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics>(
 									__this, 
 									points, 
 									colors, 
@@ -22118,7 +22191,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.Numerics.Vector4[] colors, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatchEdge[] edges)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch __ret = global::__Interop.ForwardComStubs.Stub_135<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMeshStatics>(
 									__this, 
 									points, 
 									colors, 
@@ -22184,7 +22257,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMesh, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_84<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMesh, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									7
@@ -22198,7 +22271,7 @@ namespace Microsoft.Graphics.Canvas.Geometry
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::System.Numerics.Matrix3x2 transform)
 			{
-				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_84<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMesh, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::Windows.Foundation.Rect __ret = global::__Interop.ForwardComStubs.Stub_85<global::Microsoft.Graphics.Canvas.Geometry.ICanvasGradientMesh, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									transform, 
@@ -22233,7 +22306,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocumentFactory, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocumentFactory, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									6
@@ -22410,7 +22483,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 						global::System.__ComObject __this, 
 						uint count)
 			{
-				global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocument>(
+				global::__Interop.ForwardComStubs.Stub_91<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocument>(
 									__this, 
 									count, 
 									13
@@ -22422,7 +22495,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 						global::System.__ComObject __this, 
 						uint count)
 			{
-				global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocument>(
+				global::__Interop.ForwardComStubs.Stub_91<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintDocument>(
 									__this, 
 									count, 
 									14
@@ -22440,7 +22513,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 		{
 			public static uint get_CurrentPreviewPageNumber(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
 									__this, 
 									6
 								);
@@ -22452,7 +22525,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 						global::System.__ComObject __this, 
 						uint value)
 			{
-				global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
+				global::__Interop.ForwardComStubs.Stub_91<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
 									__this, 
 									value, 
 									7
@@ -22462,7 +22535,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 
 			public static uint get_NewPreviewPageNumber(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintTaskOptionsChangedEventArgs>(
 									__this, 
 									8
 								);
@@ -22517,7 +22590,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 		{
 			public static uint get_PageNumber(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.Printing.ICanvasPreviewEventArgs>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Printing.ICanvasPreviewEventArgs>(
 									__this, 
 									6
 								);
@@ -22575,7 +22648,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 
 			public static float get_Dpi(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintEventArgs>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintEventArgs>(
 									__this, 
 									7
 								);
@@ -22587,7 +22660,7 @@ namespace Microsoft.Graphics.Canvas.Printing
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintEventArgs>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Printing.ICanvasPrintEventArgs>(
 									__this, 
 									value, 
 									8
@@ -22630,7 +22703,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									6
@@ -22652,7 +22725,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						string xmlString)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument __ret = global::__Interop.ForwardComStubs.Stub_87<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>(
+				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument __ret = global::__Interop.ForwardComStubs.Stub_88<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>(
 									__this, 
 									resourceCreator, 
 									xmlString, 
@@ -22667,7 +22740,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreator resourceCreator, 
 						global::Windows.Storage.Streams.IRandomAccessStream stream)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument> __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>>(
+				global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator, global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>>(
 									__this, 
 									resourceCreator, 
 									stream, 
@@ -22681,7 +22754,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice device)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_136<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocumentStatics, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 									__this, 
 									device, 
 									8
@@ -22757,7 +22830,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string id)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocument, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
+				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocument, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
 									__this, 
 									id, 
 									11
@@ -23036,7 +23109,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string xmlString)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocument, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
+				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgDocument, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
 									__this, 
 									xmlString, 
 									20
@@ -23082,7 +23155,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string childName)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
+				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>(
 									__this, 
 									childName, 
 									7
@@ -23095,7 +23168,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string textContent)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgTextElement __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgTextElement>(
+				global::Microsoft.Graphics.Canvas.Svg.CanvasSvgTextElement __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.CanvasSvgTextElement>(
 									__this, 
 									textContent, 
 									8
@@ -23152,7 +23225,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 
 			public static string[] get_SpecifiedAttributes(global::System.__ComObject __this)
 			{
-				string[] __ret = global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				string[] __ret = global::__Interop.ForwardComStubs.Stub_105<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									13
 								);
@@ -23229,7 +23302,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						bool inherited)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_25<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_26<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									inherited, 
@@ -23243,7 +23316,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string attributeName)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									19
@@ -23282,7 +23355,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						string attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_138<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									attributeValue, 
@@ -23295,7 +23368,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string attributeName)
 			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_138<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				string __ret = global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									23
@@ -23349,7 +23422,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string attributeName)
 			{
-				global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgAttribute __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgAttribute>(
+				global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgAttribute __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement, global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgAttribute>(
 									__this, 
 									attributeName, 
 									25
@@ -23363,7 +23436,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						string attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_137<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_138<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									attributeValue, 
@@ -23376,7 +23449,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string attributeName)
 			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_138<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				string __ret = global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									27
@@ -23504,7 +23577,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasFilledRegionDetermination attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23548,7 +23621,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDisplay attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23592,7 +23665,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Svg.CanvasSvgOverflow attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23636,7 +23709,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasCapStyle attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23680,7 +23753,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasLineJoin attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23724,7 +23797,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Svg.CanvasSvgVisibility attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23825,7 +23898,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.Svg.CanvasSvgUnits attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -23869,7 +23942,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						string attributeName, 
 						global::Microsoft.Graphics.Canvas.CanvasEdgeBehavior attributeValue)
 			{
-				global::__Interop.ForwardComStubs.Stub_139<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
+				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgNamedElement>(
 									__this, 
 									attributeName, 
 									((int)attributeValue), 
@@ -24143,7 +24216,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgTextElement>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgTextElement>(
 									__this, 
 									value, 
 									6
@@ -24244,7 +24317,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
 									__this, 
 									value, 
 									8
@@ -24254,7 +24327,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 
 			public static global::Windows.UI.Color get_Color(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
 									__this, 
 									9
 								);
@@ -24266,7 +24339,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPaintAttribute>(
 									__this, 
 									value, 
 									10
@@ -24306,7 +24379,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Geometry.CanvasFilledRegionDetermination fill)
 			{
-				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
+				global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute, global::Microsoft.Graphics.Canvas.Geometry.CanvasGeometry>(
 									__this, 
 									((int)fill), 
 									7
@@ -24408,7 +24481,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 
 			public static float[] get_SegmentData(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
 									__this, 
 									10
 								);
@@ -24468,7 +24541,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						int commandsCount)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
 									__this, 
 									commandsCount, 
 									12
@@ -24480,7 +24553,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						int commandsCount)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
 									__this, 
 									commandsCount, 
 									13
@@ -24540,7 +24613,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						int startIndex, 
 						float[] segmentData)
 			{
-				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
+				global::__Interop.ForwardComStubs.Stub_141<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPathAttribute>(
 									__this, 
 									startIndex, 
 									segmentData, 
@@ -24652,7 +24725,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						int pointCount)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPointsAttribute>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgPointsAttribute>(
 									__this, 
 									pointCount, 
 									8
@@ -24701,7 +24774,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 		{
 			public static float[] GetDashes(global::System.__ComObject __this)
 			{
-				float[] __ret = global::__Interop.ForwardComStubs.Stub_102<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
+				float[] __ret = global::__Interop.ForwardComStubs.Stub_103<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
 									__this, 
 									6
 								);
@@ -24780,7 +24853,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						global::System.__ComObject __this, 
 						int dashCount)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
 									__this, 
 									dashCount, 
 									8
@@ -24793,7 +24866,7 @@ namespace Microsoft.Graphics.Canvas.Svg
 						int startIndex, 
 						float[] dashes)
 			{
-				global::__Interop.ForwardComStubs.Stub_140<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
+				global::__Interop.ForwardComStubs.Stub_141<global::Microsoft.Graphics.Canvas.Svg.ICanvasSvgStrokeDashArrayAttribute>(
 									__this, 
 									startIndex, 
 									dashes, 
@@ -24907,7 +24980,7 @@ namespace Microsoft.Graphics.Canvas.Text
 		{
 			public static string[] GetSystemFontFamilies(global::System.__ComObject __this)
 			{
-				string[] __ret = global::__Interop.ForwardComStubs.Stub_104<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormatStatics>(
+				string[] __ret = global::__Interop.ForwardComStubs.Stub_105<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormatStatics>(
 									__this, 
 									6
 								);
@@ -24984,7 +25057,7 @@ namespace Microsoft.Graphics.Canvas.Text
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection get_Direction(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection __ret = global::__Interop.ForwardComStubs.Stub_105<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection __ret = global::__Interop.ForwardComStubs.Stub_106<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									6
 								);
@@ -25018,7 +25091,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									9
@@ -25028,7 +25101,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_FontSize(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									10
 								);
@@ -25040,7 +25113,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									11
@@ -25050,7 +25123,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStretch get_FontStretch(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_106<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									12
 								);
@@ -25072,7 +25145,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStyle get_FontStyle(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									14
 								);
@@ -25094,7 +25167,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontWeight get_FontWeight(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_109<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									16
 								);
@@ -25123,7 +25196,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_IncrementalTabStop(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									18
 								);
@@ -25135,7 +25208,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									19
@@ -25145,7 +25218,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LineSpacing(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									20
 								);
@@ -25157,7 +25230,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									21
@@ -25167,7 +25240,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LineSpacingBaseline(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									22
 								);
@@ -25179,7 +25252,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									23
@@ -25201,7 +25274,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									25
@@ -25211,7 +25284,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment get_VerticalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_109<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_110<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									26
 								);
@@ -25233,7 +25306,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment get_HorizontalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment __ret = global::__Interop.ForwardComStubs.Stub_110<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment __ret = global::__Interop.ForwardComStubs.Stub_111<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									28
 								);
@@ -25255,7 +25328,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity get_TrimmingGranularity(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity __ret = global::__Interop.ForwardComStubs.Stub_111<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity __ret = global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									30
 								);
@@ -25289,7 +25362,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									33
@@ -25311,7 +25384,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									35
@@ -25321,7 +25394,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping get_WordWrapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping __ret = global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping __ret = global::__Interop.ForwardComStubs.Stub_114<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									36
 								);
@@ -25343,7 +25416,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions get_Options(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions __ret = global::__Interop.ForwardComStubs.Stub_114<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions __ret = global::__Interop.ForwardComStubs.Stub_115<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									38
 								);
@@ -25355,7 +25428,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions value)
 			{
-				global::__Interop.ForwardComStubs.Stub_115<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_116<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									39
@@ -25365,7 +25438,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation get_VerticalGlyphOrientation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation __ret = global::__Interop.ForwardComStubs.Stub_116<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation __ret = global::__Interop.ForwardComStubs.Stub_117<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									40
 								);
@@ -25387,7 +25460,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment get_OpticalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_117<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_118<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									42
 								);
@@ -25421,7 +25494,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									value, 
 									45
@@ -25431,7 +25504,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode get_LineSpacingMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode __ret = global::__Interop.ForwardComStubs.Stub_118<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode __ret = global::__Interop.ForwardComStubs.Stub_119<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									46
 								);
@@ -25453,7 +25526,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign get_TrimmingSign(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign __ret = global::__Interop.ForwardComStubs.Stub_119<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign __ret = global::__Interop.ForwardComStubs.Stub_120<global::Microsoft.Graphics.Canvas.Text.ICanvasTextFormat>(
 									__this, 
 									48
 								);
@@ -25553,7 +25626,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									7
 								);
@@ -25563,7 +25636,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_Baseline(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									8
 								);
@@ -25593,7 +25666,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition get_BreakBefore(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition __ret = global::__Interop.ForwardComStubs.Stub_120<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									11
 								);
@@ -25603,7 +25676,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition get_BreakAfter(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition __ret = global::__Interop.ForwardComStubs.Stub_120<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasLineBreakCondition __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									12
 								);
@@ -25850,7 +25923,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::System.Numerics.Vector2 get_SubscriptPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									10
 								);
@@ -25860,7 +25933,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.Foundation.Size get_SubscriptSize(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									11
 								);
@@ -25870,7 +25943,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::System.Numerics.Vector2 get_SuperscriptPosition(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									12
 								);
@@ -25880,7 +25953,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.Foundation.Size get_SuperscriptSize(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									13
 								);
@@ -25900,7 +25973,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_Ascent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									15
 								);
@@ -25910,7 +25983,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_Descent(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									16
 								);
@@ -25920,7 +25993,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LineGap(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									17
 								);
@@ -25930,7 +26003,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_CapHeight(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									18
 								);
@@ -25940,7 +26013,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LowercaseLetterHeight(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									19
 								);
@@ -25950,7 +26023,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_UnderlinePosition(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									20
 								);
@@ -25960,7 +26033,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_UnderlineThickness(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									21
 								);
@@ -25970,7 +26043,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_StrikethroughPosition(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									22
 								);
@@ -25980,7 +26053,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_StrikethroughThickness(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									23
 								);
@@ -25990,7 +26063,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_CaretSlopeRise(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									24
 								);
@@ -26000,7 +26073,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_CaretSlopeRun(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									25
 								);
@@ -26010,7 +26083,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_CaretOffset(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									26
 								);
@@ -26191,7 +26264,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static uint get_GlyphCount(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									34
 								);
@@ -26387,7 +26460,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontWeight get_Weight(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_109<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									38
 								);
@@ -26397,7 +26470,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStretch get_Stretch(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_106<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									39
 								);
@@ -26407,7 +26480,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStyle get_Style(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									40
 								);
@@ -26439,7 +26512,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasFontInformation fontInformation)
 			{
-				global::System.Collections.Generic.IReadOnlyDictionary<string, string> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace, global::System.Collections.Generic.IReadOnlyDictionary<string, string>>(
+				global::System.Collections.Generic.IReadOnlyDictionary<string, string> __ret = global::__Interop.ForwardComStubs.Stub_83<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace, global::System.Collections.Generic.IReadOnlyDictionary<string, string>>(
 									__this, 
 									((int)fontInformation), 
 									43
@@ -26614,7 +26687,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static byte[] get_Panose(global::System.__ComObject __this)
 			{
-				byte[] __ret = global::__Interop.ForwardComStubs.Stub_99<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
+				byte[] __ret = global::__Interop.ForwardComStubs.Stub_100<global::Microsoft.Graphics.Canvas.Text.ICanvasFontFace>(
 									__this, 
 									47
 								);
@@ -27110,7 +27183,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection get_Direction(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection __ret = global::__Interop.ForwardComStubs.Stub_105<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTextDirection __ret = global::__Interop.ForwardComStubs.Stub_106<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									7
 								);
@@ -27142,7 +27215,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_DefaultFontSize(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									10
 								);
@@ -27152,7 +27225,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStretch get_DefaultFontStretch(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_106<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Windows.UI.Text.FontStretch __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									11
 								);
@@ -27162,7 +27235,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontStyle get_DefaultFontStyle(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_107<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Windows.UI.Text.FontStyle __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									12
 								);
@@ -27172,7 +27245,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.UI.Text.FontWeight get_DefaultFontWeight(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_108<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Windows.UI.Text.FontWeight __ret = global::__Interop.ForwardComStubs.Stub_109<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									13
 								);
@@ -27182,7 +27255,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_IncrementalTabStop(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									14
 								);
@@ -27194,7 +27267,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									15
@@ -27204,7 +27277,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LineSpacing(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									16
 								);
@@ -27216,7 +27289,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									17
@@ -27226,7 +27299,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_LineSpacingBaseline(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									18
 								);
@@ -27238,7 +27311,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						float value)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									19
@@ -27258,7 +27331,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment get_VerticalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_109<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_110<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									21
 								);
@@ -27280,7 +27353,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment get_HorizontalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment __ret = global::__Interop.ForwardComStubs.Stub_110<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasHorizontalAlignment __ret = global::__Interop.ForwardComStubs.Stub_111<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									23
 								);
@@ -27302,7 +27375,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity get_TrimmingGranularity(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity __ret = global::__Interop.ForwardComStubs.Stub_111<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTextTrimmingGranularity __ret = global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									25
 								);
@@ -27336,7 +27409,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									28
@@ -27358,7 +27431,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									30
@@ -27368,7 +27441,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping get_WordWrapping(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping __ret = global::__Interop.ForwardComStubs.Stub_113<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasWordWrapping __ret = global::__Interop.ForwardComStubs.Stub_114<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									31
 								);
@@ -27390,7 +27463,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions get_Options(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions __ret = global::__Interop.ForwardComStubs.Stub_114<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions __ret = global::__Interop.ForwardComStubs.Stub_115<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									33
 								);
@@ -27402,7 +27475,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions value)
 			{
-				global::__Interop.ForwardComStubs.Stub_115<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_116<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									34
@@ -27412,7 +27485,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode get_LineSpacingMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode __ret = global::__Interop.ForwardComStubs.Stub_118<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasLineSpacingMode __ret = global::__Interop.ForwardComStubs.Stub_119<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									35
 								);
@@ -27434,7 +27507,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign get_TrimmingSign(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign __ret = global::__Interop.ForwardComStubs.Stub_119<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTrimmingSign __ret = global::__Interop.ForwardComStubs.Stub_120<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									37
 								);
@@ -27478,7 +27551,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Windows.Foundation.Size get_RequestedSize(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									41
 								);
@@ -27490,7 +27563,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size value)
 			{
-				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									42
@@ -27500,7 +27573,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float GetMinimumLineLength(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									43
 								);
@@ -27512,7 +27585,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush __ret = global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush __ret = global::__Interop.ForwardComStubs.Stub_127<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									characterIndex, 
 									44
@@ -27558,7 +27631,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_127<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				string __ret = global::__Interop.ForwardComStubs.Stub_128<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									46
@@ -27571,7 +27644,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									47
@@ -27656,7 +27729,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_127<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				string __ret = global::__Interop.ForwardComStubs.Stub_128<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									51
@@ -27669,7 +27742,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									52
@@ -27682,7 +27755,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									53
@@ -27695,7 +27768,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject __ret = global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject __ret = global::__Interop.ForwardComStubs.Stub_127<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									characterIndex, 
 									54
@@ -27733,7 +27806,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush brush)
 			{
-				global::__Interop.ForwardComStubs.Stub_128<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
+				global::__Interop.ForwardComStubs.Stub_129<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Brushes.ICanvasBrush>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27782,7 +27855,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						string fontFamily)
 			{
-				global::__Interop.ForwardComStubs.Stub_129<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_130<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27821,7 +27894,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						global::Windows.UI.Text.FontStretch fontStretch)
 			{
-				global::__Interop.ForwardComStubs.Stub_130<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_131<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27837,7 +27910,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						global::Windows.UI.Text.FontStyle fontStyle)
 			{
-				global::__Interop.ForwardComStubs.Stub_130<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_131<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27876,7 +27949,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						string name)
 			{
-				global::__Interop.ForwardComStubs.Stub_129<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_130<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27892,7 +27965,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						bool hasStrikethrough)
 			{
-				global::__Interop.ForwardComStubs.Stub_131<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_132<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27908,7 +27981,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						bool hasUnderline)
 			{
-				global::__Interop.ForwardComStubs.Stub_131<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_132<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27924,7 +27997,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject inlineObject)
 			{
-				global::__Interop.ForwardComStubs.Stub_128<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
+				global::__Interop.ForwardComStubs.Stub_129<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextInlineObject>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -27939,7 +28012,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::Microsoft.Graphics.Canvas.Text.ICanvasTextRenderer textRenderer, 
 						global::System.Numerics.Vector2 position)
 			{
-				global::__Interop.ForwardComStubs.Stub_44<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextRenderer>(
+				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextRenderer>(
 									__this, 
 									textRenderer, 
 									position, 
@@ -27954,7 +28027,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						float x, 
 						float y)
 			{
-				global::__Interop.ForwardComStubs.Stub_45<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextRenderer>(
+				global::__Interop.ForwardComStubs.Stub_46<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.ICanvasTextRenderer>(
 									__this, 
 									textRenderer, 
 									x, 
@@ -28059,7 +28132,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasTypography typography)
 			{
-				global::__Interop.ForwardComStubs.Stub_128<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>(
+				global::__Interop.ForwardComStubs.Stub_129<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -28073,7 +28146,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasTypography __ret = global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasTypography __ret = global::__Interop.ForwardComStubs.Stub_127<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>(
 									__this, 
 									characterIndex, 
 									72
@@ -28136,7 +28209,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::System.Numerics.Vector2 point)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_132<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_133<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									point, 
 									78
@@ -28412,7 +28485,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									87
@@ -28427,7 +28500,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						int characterCount, 
 						bool hasPairKerning)
 			{
-				global::__Interop.ForwardComStubs.Stub_131<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_132<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									characterCount, 
@@ -28441,7 +28514,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									89
@@ -28454,7 +28527,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									90
@@ -28467,7 +28540,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						int characterIndex)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									characterIndex, 
 									91
@@ -28505,7 +28578,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation get_VerticalGlyphOrientation(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation __ret = global::__Interop.ForwardComStubs.Stub_116<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasVerticalGlyphOrientation __ret = global::__Interop.ForwardComStubs.Stub_117<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									93
 								);
@@ -28527,7 +28600,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment get_OpticalAlignment(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_117<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasOpticalAlignment __ret = global::__Interop.ForwardComStubs.Stub_118<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									95
 								);
@@ -28561,7 +28634,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.Text.ICanvasTextLayout>(
 									__this, 
 									value, 
 									98
@@ -29111,7 +29184,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitutionMethod method)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.Text.ICanvasNumberSubstitutionFactory>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.Text.ICanvasNumberSubstitutionFactory>(
 									__this, 
 									((int)method), 
 									6
@@ -29322,7 +29395,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::Microsoft.Graphics.Canvas.Text.CanvasTextFormat textFormat, 
 						global::Microsoft.Graphics.Canvas.Text.CanvasFontSet fontSet)
 			{
-				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>> __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::Microsoft.Graphics.Canvas.Text.CanvasTextFormat, global::Microsoft.Graphics.Canvas.Text.CanvasFontSet, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>>(
+				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::Microsoft.Graphics.Canvas.Text.CanvasTextFormat, global::Microsoft.Graphics.Canvas.Text.CanvasFontSet, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>>(
 									__this, 
 									textFormat, 
 									fontSet, 
@@ -29346,7 +29419,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string locale)
 			{
-				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>>(
+				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>>(
 									__this, 
 									locale, 
 									9
@@ -29480,7 +29553,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string locale)
 			{
-				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>>(
+				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>>(
 									__this, 
 									locale, 
 									14
@@ -29503,7 +29576,7 @@ namespace Microsoft.Graphics.Canvas.Text
 						global::System.__ComObject __this, 
 						string locale)
 			{
-				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>>(
+				global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Microsoft.Graphics.Canvas.Text.ICanvasTextAnalyzer, global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>>(
 									__this, 
 									locale, 
 									16
@@ -30266,7 +30339,7 @@ namespace Microsoft.Graphics.Canvas.Text
 
 			public static float get_ScaleFactor(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.Text.ICanvasScaledFont>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.Text.ICanvasScaledFont>(
 									__this, 
 									7
 								);
@@ -30670,7 +30743,7 @@ namespace Microsoft.Graphics.Canvas.UI
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesReason createResourcesReason)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_41<global::Microsoft.Graphics.Canvas.UI.ICanvasCreateResourcesEventArgsFactory>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.UI.ICanvasCreateResourcesEventArgsFactory>(
 									__this, 
 									((int)createResourcesReason), 
 									6
@@ -30788,7 +30861,7 @@ namespace Microsoft.Graphics.Canvas.UI.Composition
 						global::Windows.UI.Composition.Compositor compositor, 
 						global::Microsoft.Graphics.Canvas.CanvasDevice canvasDevice)
 			{
-				global::Windows.UI.Composition.CompositionGraphicsDevice __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.Compositor, global::Microsoft.Graphics.Canvas.CanvasDevice, global::Windows.UI.Composition.CompositionGraphicsDevice>(
+				global::Windows.UI.Composition.CompositionGraphicsDevice __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.Compositor, global::Microsoft.Graphics.Canvas.CanvasDevice, global::Windows.UI.Composition.CompositionGraphicsDevice>(
 									__this, 
 									compositor, 
 									canvasDevice, 
@@ -30803,7 +30876,7 @@ namespace Microsoft.Graphics.Canvas.UI.Composition
 						global::Windows.UI.Composition.Compositor compositor, 
 						global::Microsoft.Graphics.Canvas.CanvasSwapChain swapChain)
 			{
-				global::Windows.UI.Composition.ICompositionSurface __ret = global::__Interop.ForwardComStubs.Stub_81<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.Compositor, global::Microsoft.Graphics.Canvas.CanvasSwapChain, global::Windows.UI.Composition.ICompositionSurface>(
+				global::Windows.UI.Composition.ICompositionSurface __ret = global::__Interop.ForwardComStubs.Stub_82<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.Compositor, global::Microsoft.Graphics.Canvas.CanvasSwapChain, global::Windows.UI.Composition.ICompositionSurface>(
 									__this, 
 									compositor, 
 									swapChain, 
@@ -30858,7 +30931,7 @@ namespace Microsoft.Graphics.Canvas.UI.Composition
 						global::Windows.UI.Composition.CompositionDrawingSurface drawingSurface, 
 						global::Windows.Foundation.Rect updateRect)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_79<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.CompositionDrawingSurface, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_80<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.CompositionDrawingSurface, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									drawingSurface, 
 									updateRect, 
@@ -30920,7 +30993,7 @@ namespace Microsoft.Graphics.Canvas.UI.Composition
 						global::Windows.UI.Composition.CompositionDrawingSurface drawingSurface, 
 						global::Windows.Foundation.Size sizeInPixels)
 			{
-				global::__Interop.ForwardComStubs.Stub_72<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.CompositionDrawingSurface>(
+				global::__Interop.ForwardComStubs.Stub_73<global::Microsoft.Graphics.Canvas.UI.Composition.ICanvasCompositionStatics, global::Windows.UI.Composition.CompositionDrawingSurface>(
 									__this, 
 									drawingSurface, 
 									sizeInPixels, 
@@ -31052,7 +31125,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									value, 
 									11
@@ -31062,7 +31135,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.UI.Color get_ClearColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									12
 								);
@@ -31081,7 +31154,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									14
 								);
@@ -31112,7 +31185,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									value, 
 									17
@@ -31134,7 +31207,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									value, 
 									19
@@ -31166,7 +31239,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static float get_DpiScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									22
 								);
@@ -31178,7 +31251,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						float ratio)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasControl>(
 									__this, 
 									ratio, 
 									23
@@ -31198,7 +31271,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Microsoft.Graphics.Canvas.CanvasDrawingSession canvasDrawingSession)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_42<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasDrawEventArgsFactory, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_43<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasDrawEventArgsFactory, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									canvasDrawingSession, 
 									6
@@ -31238,7 +31311,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi resourceCreator, 
 						global::Windows.Foundation.Size size)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									size, 
@@ -31254,7 +31327,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float width, 
 						float height)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -31272,7 +31345,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float height, 
 						float dpi)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_163<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -31292,7 +31365,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float dpi, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_165<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_166<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -31317,7 +31390,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color clearColor)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_166<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_167<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									clearColor, 
 									6
@@ -31331,7 +31404,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::Windows.UI.Color clearColor, 
 						global::Windows.Foundation.Rect updateRectangle)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_167<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_168<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									clearColor, 
 									updateRectangle, 
@@ -31355,7 +31428,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
 									__this, 
 									9
 								);
@@ -31365,7 +31438,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Graphics.Imaging.BitmapSize get_SizeInPixels(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
+				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
 									__this, 
 									10
 								);
@@ -31375,7 +31448,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasImageSource>(
 									__this, 
 									11
 								);
@@ -31430,7 +31503,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 		{
 			public static global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation get_Timing(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation __ret = global::__Interop.ForwardComStubs.Stub_169<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedUpdateEventArgs>(
+				global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation __ret = global::__Interop.ForwardComStubs.Stub_170<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedUpdateEventArgs>(
 									__this, 
 									6
 								);
@@ -31511,7 +31584,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation get_Timing(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation __ret = global::__Interop.ForwardComStubs.Stub_169<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedDrawEventArgs>(
+				global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation __ret = global::__Interop.ForwardComStubs.Stub_170<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedDrawEventArgs>(
 									__this, 
 									7
 								);
@@ -31678,7 +31751,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_170<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									12
@@ -31703,7 +31776,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_170<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									14
@@ -31738,7 +31811,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									17
@@ -31800,7 +31873,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									21
@@ -31822,7 +31895,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									23
@@ -31832,7 +31905,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.UI.Color get_ClearColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									24
 								);
@@ -31842,7 +31915,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									25
 								);
@@ -31979,7 +32052,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									33
@@ -32001,7 +32074,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									value, 
 									35
@@ -32033,7 +32106,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static float get_DpiScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									38
 								);
@@ -32045,7 +32118,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						float ratio)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 									__this, 
 									ratio, 
 									39
@@ -32105,7 +32178,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi resourceCreator, 
 						global::Windows.Foundation.Size size)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_160<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									size, 
@@ -32121,7 +32194,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float width, 
 						float height)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_161<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreatorWithDpi>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -32139,7 +32212,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float height, 
 						float dpi)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_162<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_163<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -32159,7 +32232,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float dpi, 
 						global::Microsoft.Graphics.Canvas.CanvasAlphaMode alphaMode)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_165<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_166<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSourceFactory, global::Microsoft.Graphics.Canvas.ICanvasResourceCreator>(
 									__this, 
 									resourceCreator, 
 									width, 
@@ -32195,7 +32268,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::Windows.UI.Color clearColor, 
 						global::Windows.Foundation.Rect updateRectangle)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_167<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
+				global::Microsoft.Graphics.Canvas.CanvasDrawingSession __ret = global::__Interop.ForwardComStubs.Stub_168<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource, global::Microsoft.Graphics.Canvas.CanvasDrawingSession>(
 									__this, 
 									clearColor, 
 									updateRectangle, 
@@ -32242,7 +32315,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect region)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									region, 
 									11
@@ -32312,7 +32385,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size size)
 			{
-				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::__Interop.ForwardComStubs.Stub_126<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									size, 
 									15
@@ -32325,7 +32398,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float width, 
 						float height)
 			{
-				global::__Interop.ForwardComStubs.Stub_124<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::__Interop.ForwardComStubs.Stub_125<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									width, 
 									height, 
@@ -32340,7 +32413,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						float height, 
 						float dpi)
 			{
-				global::__Interop.ForwardComStubs.Stub_168<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::__Interop.ForwardComStubs.Stub_169<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									width, 
 									height, 
@@ -32364,7 +32437,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									19
 								);
@@ -32374,7 +32447,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Graphics.Imaging.BitmapSize get_SizeInPixels(global::System.__ComObject __this)
 			{
-				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_77<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::Windows.Graphics.Imaging.BitmapSize __ret = global::__Interop.ForwardComStubs.Stub_78<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									20
 								);
@@ -32384,7 +32457,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Microsoft.Graphics.Canvas.CanvasAlphaMode get_AlphaMode(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_97<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
+				global::Microsoft.Graphics.Canvas.CanvasAlphaMode __ret = global::__Interop.ForwardComStubs.Stub_98<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualImageSource>(
 									__this, 
 									21
 								);
@@ -32573,7 +32646,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color value)
 			{
-				global::__Interop.ForwardComStubs.Stub_35<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									value, 
 									11
@@ -32583,7 +32656,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.UI.Color get_ClearColor(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									12
 								);
@@ -32664,7 +32737,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect region)
 			{
-				global::__Interop.ForwardComStubs.Stub_171<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::__Interop.ForwardComStubs.Stub_172<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									region, 
 									17
@@ -32674,7 +32747,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static global::Windows.Foundation.Size get_Size(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_37<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									18
 								);
@@ -32705,7 +32778,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									value, 
 									21
@@ -32727,7 +32800,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									value, 
 									23
@@ -32759,7 +32832,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 
 			public static float get_DpiScale(global::System.__ComObject __this)
 			{
-				float __ret = global::__Interop.ForwardComStubs.Stub_38<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				float __ret = global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									26
 								);
@@ -32771,7 +32844,7 @@ namespace Microsoft.Graphics.Canvas.UI.Xaml
 						global::System.__ComObject __this, 
 						float ratio)
 			{
-				global::__Interop.ForwardComStubs.Stub_39<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
+				global::__Interop.ForwardComStubs.Stub_40<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasVirtualControl>(
 									__this, 
 									ratio, 
 									27
@@ -32792,7 +32865,7 @@ namespace System
 		{
 			public static global::Microsoft.Graphics.Canvas.CanvasBufferPrecision get_Value(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_141<global::Windows.Foundation.IReference<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision>>(
+				global::Microsoft.Graphics.Canvas.CanvasBufferPrecision __ret = global::__Interop.ForwardComStubs.Stub_142<global::Windows.Foundation.IReference<global::Microsoft.Graphics.Canvas.CanvasBufferPrecision>>(
 									__this, 
 									6
 								);
@@ -32839,7 +32912,7 @@ namespace System
 		{
 			public static global::Windows.UI.Color get_Value(global::System.__ComObject __this)
 			{
-				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_36<global::Windows.Foundation.IReference<global::Windows.UI.Color>>(
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_37<global::Windows.Foundation.IReference<global::Windows.UI.Color>>(
 									__this, 
 									6
 								);
@@ -33201,7 +33274,7 @@ namespace System
 		{
 			public static global::System.Numerics.Vector2 get_Value(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_121<global::Windows.Foundation.IReference<global::System.Numerics.Vector2>>(
+				global::System.Numerics.Vector2 __ret = global::__Interop.ForwardComStubs.Stub_122<global::Windows.Foundation.IReference<global::System.Numerics.Vector2>>(
 									__this, 
 									6
 								);
@@ -33219,7 +33292,7 @@ namespace System
 		{
 			public static global::System.Numerics.Vector3 get_Value(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_178<global::Windows.Foundation.IReference<global::System.Numerics.Vector3>>(
+				global::System.Numerics.Vector3 __ret = global::__Interop.ForwardComStubs.Stub_179<global::Windows.Foundation.IReference<global::System.Numerics.Vector3>>(
 									__this, 
 									6
 								);
@@ -33237,7 +33310,7 @@ namespace System
 		{
 			public static global::System.Numerics.Vector4 get_Value(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_146<global::Windows.Foundation.IReference<global::System.Numerics.Vector4>>(
+				global::System.Numerics.Vector4 __ret = global::__Interop.ForwardComStubs.Stub_147<global::Windows.Foundation.IReference<global::System.Numerics.Vector4>>(
 									__this, 
 									6
 								);
@@ -33255,7 +33328,7 @@ namespace System
 		{
 			public static global::System.Numerics.Matrix3x2 get_Value(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_73<global::Windows.Foundation.IReference<global::System.Numerics.Matrix3x2>>(
+				global::System.Numerics.Matrix3x2 __ret = global::__Interop.ForwardComStubs.Stub_74<global::Windows.Foundation.IReference<global::System.Numerics.Matrix3x2>>(
 									__this, 
 									6
 								);
@@ -33273,7 +33346,7 @@ namespace System
 		{
 			public static global::System.Numerics.Matrix4x4 get_Value(global::System.__ComObject __this)
 			{
-				global::System.Numerics.Matrix4x4 __ret = global::__Interop.ForwardComStubs.Stub_180<global::Windows.Foundation.IReference<global::System.Numerics.Matrix4x4>>(
+				global::System.Numerics.Matrix4x4 __ret = global::__Interop.ForwardComStubs.Stub_181<global::Windows.Foundation.IReference<global::System.Numerics.Matrix4x4>>(
 									__this, 
 									6
 								);
@@ -33431,7 +33504,25 @@ namespace System
 		{
 			public static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> get_Value(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __ret = global::__Interop.ForwardComStubs.Stub_95<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>>>(
+				global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __ret = global::__Interop.ForwardComStubs.Stub_96<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>>>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+
+	// System.Nullable<Windows.Foundation.AsyncActionProgressHandler<ulong>>
+	public unsafe static class Nullable_A__wf_AsyncActionProgressHandler_A_ulong_V__V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.Foundation.AsyncActionProgressHandler<ulong>>'
+		public static partial class Stubs
+		{
+			public static global::Windows.Foundation.AsyncActionProgressHandler<ulong> get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.AsyncActionProgressHandler<ulong> __ret = global::__Interop.ForwardComStubs.Stub_184<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncActionProgressHandler<ulong>>>(
 									__this, 
 									6
 								);
@@ -33449,7 +33540,7 @@ namespace System
 		{
 			public static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> get_Value(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __ret = global::__Interop.ForwardComStubs.Stub_93<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>>>(
+				global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __ret = global::__Interop.ForwardComStubs.Stub_94<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>>>(
 									__this, 
 									6
 								);
@@ -34517,7 +34608,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>(
 									__this, 
 									6
 								);
@@ -34603,7 +34694,7 @@ namespace System.Collections.Generic
 
 			public static uint get_Size(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasScaledFont>>>(
 									__this, 
 									7
 								);
@@ -34855,7 +34946,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>(
 									__this, 
 									6
 								);
@@ -34952,7 +35043,7 @@ namespace System.Collections.Generic
 
 			public static uint get_Size(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi>>>(
 									__this, 
 									7
 								);
@@ -35204,7 +35295,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution>>(
 									__this, 
 									6
 								);
@@ -35290,7 +35381,7 @@ namespace System.Collections.Generic
 
 			public static uint get_Size(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution>>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution>>>(
 									__this, 
 									7
 								);
@@ -35542,7 +35633,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>(
 									__this, 
 									6
 								);
@@ -35639,7 +35730,7 @@ namespace System.Collections.Generic
 
 			public static uint get_Size(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript>>>(
 									__this, 
 									7
 								);
@@ -35891,7 +35982,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>(
 									__this, 
 									6
 								);
@@ -35992,7 +36083,7 @@ namespace System.Collections.Generic
 
 			public static uint get_Size(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::System.Collections.Generic.IReadOnlyList<global::System.Collections.Generic.KeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation>>>(
 									__this, 
 									7
 								);
@@ -36244,7 +36335,7 @@ namespace System.Collections.Generic
 		{
 			public static global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange get_Key(global::System.__ComObject __this)
 			{
-				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>>(
+				global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange __ret = global::__Interop.ForwardComStubs.Stub_165<global::Windows.Foundation.Collections.IKeyValuePair<global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange, global::Microsoft.Graphics.Canvas.Text.CanvasTypography>>(
 									__this, 
 									6
 								);
@@ -37400,6 +37491,258 @@ namespace System.Collections.Generic
 									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Storage.IStorageItem>).TypeHandle
 								);
 			}
+		}
+	}
+
+	// System.Collections.Generic.IDictionary<string,System.Collections.Generic.IList<string>>
+	public unsafe static class IDictionary_A_string_j__scg_IList_A_string_V__V___Impl
+	{
+		// DispatchClass for 'System.Collections.Generic.IDictionary<string,System.Collections.Generic.IList<string>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>))]
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<string>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>, global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>)global::__Interop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::__Interop.McgHelpers.GetNonGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle
+								);
+			}
+
+			int global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.Count
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Count(((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this));
+				}
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.IsReadOnly
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.IsReadOnly(((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this));
+				}
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.Add(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> item)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Add(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.Clear()
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Clear(((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this));
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.Contains(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> item)
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Contains(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.CopyTo(
+						global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>[] array, 
+						int arrayindex)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.CopyTo(
+									this, 
+									array, 
+									arrayindex
+								);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.Remove(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> item)
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Remove(
+									this, 
+									item
+								);
+			}
+
+			global::System.Collections.Generic.IList<string> global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.this[string index]
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Indexer_Get(
+										((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this), 
+										index
+									);
+				}
+				set
+				{
+					global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Indexer_Set(
+										this, 
+										index, 
+										value
+									);
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<string> global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.Keys
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Keys(((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this));
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<global::System.Collections.Generic.IList<string>> global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.Values
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Values(((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this));
+				}
+			}
+
+			void global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.Add(
+						string key, 
+						global::System.Collections.Generic.IList<string> value)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Add(
+									this, 
+									key, 
+									value
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.ContainsKey(string key)
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.ContainsKey(
+									((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this), 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.Remove(string key)
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Remove(
+									((global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>)this), 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>.TryGetValue(
+						string key, 
+						out global::System.Collections.Generic.IList<string> value)
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.TryGetValue(
+									this, 
+									key, 
+									out value
+								);
+			}
+		}
+	}
+
+	// System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>
+	public unsafe static class KeyValuePair_A_string_j__scg_IList_A_string_V__V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>'
+		public static partial class Stubs
+		{
+			public static string get_Key(global::System.__ComObject __this)
+			{
+				string __ret = global::__Interop.ForwardComStubs.Stub_1<global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::System.Collections.Generic.IList<string> get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IList<string> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>, global::System.Collections.Generic.IList<string>>(
+									__this, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>
+		{
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Key")]
+			string global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>.get_Key()
+			{
+				string __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j__scg_IList_A_string_V__V___Impl.Stubs.get_Key(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Value")]
+			global::System.Collections.Generic.IList<string> global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>.get_Value()
+			{
+				global::System.Collections.Generic.IList<string> __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j__scg_IList_A_string_V__V___Impl.Stubs.get_Value(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+		}
+	}
+
+	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>
+	public unsafe static class IEnumerable_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>'
+		public static partial class Stubs
+		{
+			public static global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>> First(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>)global::__Interop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::__Interop.McgHelpers.GetNonGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle
+								);
+			}
+		}
+
+		[System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string,global::System.Collections.Generic.IList<string>>>))]
+		public class DynamicRCWAdapter : global::System.Runtime.InteropServices.ComInterfaceDynamicAdapter, global::System.Collections.IEnumerable
+		{
+		    public global::System.Collections.IEnumerator GetEnumerator()
+		    {
+		        return new global::System.Runtime.InteropServices.WindowsRuntime.IIterator_PrivateRCWAdapter<global::System.Collections.Generic.KeyValuePair<string,global::System.Collections.Generic.IList<string>>>(global::System.Collections.Generic.IEnumerable_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl.Stubs.First(ComObject));
+		    }
 		}
 	}
 
@@ -39042,7 +39385,7 @@ namespace System.Collections.Generic
 		{
 			public static global::System.Type get_Key(global::System.__ComObject __this)
 			{
-				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_145<global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>(
+				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_146<global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>(
 									__this, 
 									6
 								);
@@ -40380,7 +40723,7 @@ namespace System_Runtime_InteropServices
 						global::System.__ComObject __this, 
 						uint dwReserved)
 			{
-				global::__Interop.ForwardComStubs.Stub_90<global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime>(
+				global::__Interop.ForwardComStubs.Stub_91<global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime>(
 									__this, 
 									dwReserved, 
 									8
@@ -40508,12 +40851,12 @@ namespace System_Runtime_InteropServices
 				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetUnmarshalClass_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget33>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetUnmarshalClass__n),
-				pfnGetMarshalSizeMax_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget34>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetMarshalSizeMax__n),
-				pfnMarshalInterface_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget35>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.MarshalInterface__n),
-				pfnUnmarshalInterface_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget36>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.UnmarshalInterface__n),
+				pfnGetUnmarshalClass_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget35>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetUnmarshalClass__n),
+				pfnGetMarshalSizeMax_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget36>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetMarshalSizeMax__n),
+				pfnMarshalInterface_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget37>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.MarshalInterface__n),
+				pfnUnmarshalInterface_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget38>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.UnmarshalInterface__n),
 				pfnReleaseMarshalData_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.ReleaseMarshalData__n),
-				pfnDisconnectObject_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget7>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.DisconnectObject__n),
+				pfnDisconnectObject_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget8>(global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.DisconnectObject__n),
 			}
 			#endif
 			;
@@ -40717,7 +41060,7 @@ namespace System_Runtime_InteropServices
 									__this, 
 									5
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_8(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_9(
 									__this, 
 									unsafe_dwReserved, 
 									__methodPtr
@@ -40802,7 +41145,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						out global::System.IntPtr ppTypeAttr)
 			{
-				global::__Interop.ForwardComStubs.Stub_184<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_186<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									out ppTypeAttr, 
 									3
@@ -40814,7 +41157,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						out global::System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop ppTComp)
 			{
-				global::__Interop.ForwardComStubs.Stub_185<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_187<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									out ppTComp, 
 									4
@@ -40827,7 +41170,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						int index, 
 						out global::System.IntPtr ppFuncDesc)
 			{
-				global::__Interop.ForwardComStubs.Stub_186<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_188<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									index, 
 									out ppFuncDesc, 
@@ -40841,7 +41184,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						int index, 
 						out global::System.IntPtr ppVarDesc)
 			{
-				global::__Interop.ForwardComStubs.Stub_186<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_188<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									index, 
 									out ppVarDesc, 
@@ -41071,7 +41414,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						out int dwHelpContext, 
 						out string strHelpFile)
 			{
-				global::__Interop.ForwardComStubs.Stub_187<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									index, 
 									out strName, 
@@ -41116,7 +41459,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						int hRef, 
 						out global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop ppTI)
 			{
-				global::__Interop.ForwardComStubs.Stub_188<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_190<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									hRef, 
 									out ppTI, 
@@ -41276,7 +41619,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						global::System.IntPtr pTypeAttr)
 			{
-				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_191<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									pTypeAttr, 
 									19
@@ -41288,7 +41631,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						global::System.IntPtr pFuncDesc)
 			{
-				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_191<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									pFuncDesc, 
 									20
@@ -41300,7 +41643,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						global::System.IntPtr pVarDesc)
 			{
-				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_191<global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop>(
 									__this, 
 									pVarDesc, 
 									21
@@ -41746,7 +42089,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						int index, 
 						out global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop ppTI)
 			{
-				global::__Interop.ForwardComStubs.Stub_188<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_190<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
 									__this, 
 									index, 
 									out ppTI, 
@@ -41824,7 +42167,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						out global::System.IntPtr ppTLibAttr)
 			{
-				global::__Interop.ForwardComStubs.Stub_184<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_186<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
 									__this, 
 									out ppTLibAttr, 
 									7
@@ -41836,7 +42179,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						out global::System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop ppTComp)
 			{
-				global::__Interop.ForwardComStubs.Stub_185<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_187<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
 									__this, 
 									out ppTComp, 
 									8
@@ -41852,7 +42195,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						out int dwHelpContext, 
 						out string strHelpFile)
 			{
-				global::__Interop.ForwardComStubs.Stub_187<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
 									__this, 
 									index, 
 									out strName, 
@@ -41969,7 +42312,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						global::System.__ComObject __this, 
 						global::System.IntPtr pTLibAttr)
 			{
-				global::__Interop.ForwardComStubs.Stub_189<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
+				global::__Interop.ForwardComStubs.Stub_191<global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop>(
 									__this, 
 									pTLibAttr, 
 									12
@@ -42165,7 +42508,7 @@ namespace System_Runtime_InteropServices_WindowsRuntime
 				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetBuffer_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget32>(global::System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl.GetBuffer__n),
+				pfnGetBuffer_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget34>(global::System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl.GetBuffer__n),
 			}
 			#endif
 			;
@@ -42616,7 +42959,7 @@ namespace Windows.ApplicationModel.Resources.Core
 						global::System.__ComObject __this, 
 						string reference)
 			{
-				global::Windows.ApplicationModel.Resources.Core.ResourceMap __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.ApplicationModel.Resources.Core.IResourceMap, global::Windows.ApplicationModel.Resources.Core.ResourceMap>(
+				global::Windows.ApplicationModel.Resources.Core.ResourceMap __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.ApplicationModel.Resources.Core.IResourceMap, global::Windows.ApplicationModel.Resources.Core.ResourceMap>(
 									__this, 
 									reference, 
 									9
@@ -43837,7 +44180,7 @@ namespace Windows.Foundation
 					global::Windows.UI.Xaml.FrameworkElement sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, object>, global::Windows.UI.Xaml.FrameworkElement>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, object>, global::Windows.UI.Xaml.FrameworkElement>(
 								__this, 
 								sender, 
 								args, 
@@ -44085,7 +44428,7 @@ namespace Windows.Foundation
 					global::Microsoft.Graphics.Canvas.CanvasDevice sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.CanvasDevice, object>, global::Microsoft.Graphics.Canvas.CanvasDevice>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.CanvasDevice, object>, global::Microsoft.Graphics.Canvas.CanvasDevice>(
 								__this, 
 								sender, 
 								args, 
@@ -44121,7 +44464,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.CanvasBitmap>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.CanvasBitmap>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -44171,7 +44514,7 @@ namespace Windows.Foundation
 
 			public static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> get_Progress(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __ret = global::__Interop.ForwardComStubs.Stub_93<global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
+				global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> __ret = global::__Interop.ForwardComStubs.Stub_94<global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
 									__this, 
 									7
 								);
@@ -44363,10 +44706,10 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.put_Progress__n),
-				pfnget_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.get_Progress__n),
+				pfnget_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.get_Progress__n),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.get_Completed__n),
-				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.GetResults__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
 			;
@@ -44521,7 +44864,7 @@ namespace Windows.Foundation
 									__this, 
 									4
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.Streams.IBuffer>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									((void**)unsafe___value__retval), 
 									__methodPtr
@@ -44559,7 +44902,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> asyncInfo, 
 					uint progressInfo)
 		{
-			global::__Interop.ForwardComStubs.Stub_94<global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
+			global::__Interop.ForwardComStubs.Stub_95<global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
 								__this, 
 								asyncInfo, 
 								progressInfo, 
@@ -44642,7 +44985,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IBuffer, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IBuffer, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -44757,7 +45100,7 @@ namespace Windows.Foundation
 
 			public static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> get_Progress(global::System.__ComObject __this)
 			{
-				global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __ret = global::__Interop.ForwardComStubs.Stub_95<global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
+				global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> __ret = global::__Interop.ForwardComStubs.Stub_96<global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
 									__this, 
 									7
 								);
@@ -44832,7 +45175,7 @@ namespace Windows.Foundation
 
 			public static uint GetResults(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
 									__this, 
 									10
 								);
@@ -44948,10 +45291,10 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.put_Progress__n),
-				pfnget_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.get_Progress__n),
+				pfnget_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.get_Progress__n),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.get_Completed__n),
-				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.GetResults__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget7>(global::Windows.Foundation.IAsyncOperationWithProgress_A_uint_j_uint_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
 			;
@@ -45106,7 +45449,7 @@ namespace Windows.Foundation
 									__this, 
 									4
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_8(
 									__this, 
 									unsafe___value__retval, 
 									__methodPtr
@@ -45144,7 +45487,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> asyncInfo, 
 					uint progressInfo)
 		{
-			global::__Interop.ForwardComStubs.Stub_94<global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
+			global::__Interop.ForwardComStubs.Stub_95<global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
 								__this, 
 								asyncInfo, 
 								progressInfo, 
@@ -45226,7 +45569,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<uint, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<uint, uint>, global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -45469,7 +45812,7 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperation_A_bool_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A_bool_V___Impl.Vtbl.get_Completed__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A_bool_V___Impl.Vtbl.get_Completed__n),
 				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.Foundation.IAsyncOperation_A_bool_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
@@ -45596,7 +45939,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<bool> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<bool>, global::Windows.Foundation.IAsyncOperation<bool>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<bool>, global::Windows.Foundation.IAsyncOperation<bool>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -45614,7 +45957,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -45632,7 +45975,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -45899,7 +46242,7 @@ namespace Windows.Foundation
 					global::Windows.UI.Xaml.Controls.InkToolbar sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object>, global::Windows.UI.Xaml.Controls.InkToolbar>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object>, global::Windows.UI.Xaml.Controls.InkToolbar>(
 								__this, 
 								sender, 
 								args, 
@@ -46064,7 +46407,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>, global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -46190,7 +46533,7 @@ namespace Windows.Foundation
 					global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl, object>, global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl, object>, global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl>(
 								__this, 
 								sender, 
 								args, 
@@ -46208,7 +46551,7 @@ namespace Windows.Foundation
 					global::Windows.UI.Xaml.Controls.SwapChainPanel sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.SwapChainPanel, object>, global::Windows.UI.Xaml.Controls.SwapChainPanel>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.SwapChainPanel, object>, global::Windows.UI.Xaml.Controls.SwapChainPanel>(
 								__this, 
 								sender, 
 								args, 
@@ -46344,7 +46687,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.IStorageItem>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.IStorageItem>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -46523,8 +46866,8 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_IStorageItem_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_IStorageItem_V___Impl.Vtbl.get_Completed__n),
-				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_IStorageItem_V___Impl.Vtbl.GetResults__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_IStorageItem_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_IStorageItem_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
 			;
@@ -46614,7 +46957,7 @@ namespace Windows.Foundation
 									__this, 
 									2
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.IStorageItem>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Storage.IStorageItem>(
 									__this, 
 									((void**)unsafe___value__retval), 
 									__methodPtr
@@ -46650,7 +46993,7 @@ namespace Windows.Foundation
 					global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem sender, 
 					object args)
 		{
-			global::__Interop.ForwardComStubs.Stub_27<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem, object>, global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem>(
+			global::__Interop.ForwardComStubs.Stub_28<global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem, object>, global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem>(
 								__this, 
 								sender, 
 								args, 
@@ -46891,6 +47234,616 @@ namespace Windows.Foundation
 		}
 	}
 
+	// Windows.Foundation.IAsyncActionWithProgress<ulong>
+	public unsafe static class IAsyncActionWithProgress_A_ulong_V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IAsyncActionWithProgress<ulong>'
+		public static partial class Stubs
+		{
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Progress, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionProgressHandler_1_ulong___Windows_Foundation__AsyncActionProgressHandler_A_ulong_V_ *, 
+			public static void put_Progress(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.AsyncActionProgressHandler<ulong> handler)
+			{
+				// Setup
+				void* unsafe_handler = default(void*);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										handler, 
+										typeof(global::Windows.Foundation.AsyncActionProgressHandler<ulong>).TypeHandle
+									);
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>).TypeHandle, 
+										6, 
+										unsafe_handler
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+				}
+			}
+
+			public static global::Windows.Foundation.AsyncActionProgressHandler<ulong> get_Progress(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.AsyncActionProgressHandler<ulong> __ret = global::__Interop.ForwardComStubs.Stub_184<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+									__this, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Completed, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionWithProgressCompletedHandler_1_ulong___Windows_Foundation__AsyncActionWithProgressCompletedHandler_A_ulong_V_ *, 
+			public static void put_Completed(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> handler)
+			{
+				// Setup
+				void* unsafe_handler = default(void*);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										handler, 
+										typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>).TypeHandle
+									);
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>).TypeHandle, 
+										8, 
+										unsafe_handler
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.get_Completed, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionWithProgressCompletedHandler_1_ulong___Windows_Foundation__AsyncActionWithProgressCompletedHandler_A_ulong_V_ *, 
+			public static global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> get_Completed(global::System.__ComObject __this)
+			{
+				// Setup
+				void* unsafe___value__retval = default(void*);
+				global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> __value__retval = default(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe___value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>).TypeHandle, 
+										9, 
+										&(unsafe___value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					__value__retval = (global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+										((global::System.IntPtr)unsafe___value__retval), 
+										typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>).TypeHandle
+									);
+					// Return
+					return __value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+				}
+			}
+
+			public static void GetResults(global::System.__ComObject __this)
+			{
+				global::__Interop.ForwardComStubs.Stub_11<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+									__this, 
+									10
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.IAsyncActionWithProgress<ulong>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.IAsyncActionWithProgress<ulong>
+		{
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Id")]
+			uint global::Windows.Foundation.IAsyncInfo.get_Id()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return 0;
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Status")]
+			global::Windows.Foundation.AsyncStatus global::Windows.Foundation.IAsyncInfo.get_Status()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncStatus);
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.ErrorCode")]
+			global::System.Exception global::Windows.Foundation.IAsyncInfo.get_ErrorCode()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return default(global::System.Exception);
+			}
+
+			void global::Windows.Foundation.IAsyncInfo.Cancel()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			void global::Windows.Foundation.IAsyncInfo.Close()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.Foundation.IAsyncActionWithProgress`1.Progress")]
+			void global::Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Progress(global::Windows.Foundation.AsyncActionProgressHandler<ulong> handler)
+			{
+				global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Stubs.put_Progress(
+									this, 
+									handler
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncActionWithProgress`1.Progress")]
+			global::Windows.Foundation.AsyncActionProgressHandler<ulong> global::Windows.Foundation.IAsyncActionWithProgress<ulong>.get_Progress()
+			{
+				global::Windows.Foundation.AsyncActionProgressHandler<ulong> __retVal = global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Stubs.get_Progress(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.Foundation.IAsyncActionWithProgress`1.Completed")]
+			void global::Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Completed(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> handler)
+			{
+				global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Stubs.put_Completed(
+									this, 
+									handler
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncActionWithProgress`1.Completed")]
+			global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> global::Windows.Foundation.IAsyncActionWithProgress<ulong>.get_Completed()
+			{
+				global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> __retVal = global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Stubs.get_Completed(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			void global::Windows.Foundation.IAsyncActionWithProgress<ulong>.GetResults()
+			{
+				global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Stubs.GetResults(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IAsyncActionWithProgress<ulong>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IAsyncActionWithProgress_A_ulong_V_
+			global::System.IntPtr pfnput_Progress_;
+			global::System.IntPtr pfnget_Progress_;
+			global::System.IntPtr pfnput_Completed_;
+			global::System.IntPtr pfnget_Completed_;
+			global::System.IntPtr pfnGetResults_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Foundation_IAsyncActionWithProgress_A_ulong_V___Impl_Vtbl_s_staticVtable")]
+			static global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnput_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.put_Progress__n),
+				pfnget_Progress_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.get_Progress__n),
+				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.put_Completed__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget22>(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.GetResults__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl)
+									);
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Progress, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionProgressHandler_1_ulong___Windows_Foundation__AsyncActionProgressHandler_A_ulong_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int put_Progress__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_handler)
+			{
+				// Setup
+				global::Windows.Foundation.AsyncActionProgressHandler<ulong> handler = default(global::Windows.Foundation.AsyncActionProgressHandler<ulong>);
+				try
+				{
+					// Marshalling
+					handler = (global::Windows.Foundation.AsyncActionProgressHandler<ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+										((global::System.IntPtr)unsafe_handler), 
+										typeof(global::Windows.Foundation.AsyncActionProgressHandler<ulong>).TypeHandle
+									);
+					// Call to managed method
+					global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).put_Progress(handler);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.get_Progress, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionProgressHandler_1_ulong___Windows_Foundation__AsyncActionProgressHandler_A_ulong_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Progress__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.AsyncActionProgressHandler<ulong> __value__retval = default(global::Windows.Foundation.AsyncActionProgressHandler<ulong>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Progress();
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.AsyncActionProgressHandler<ulong>).TypeHandle
+										);
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.put_Completed, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionWithProgressCompletedHandler_1_ulong___Windows_Foundation__AsyncActionWithProgressCompletedHandler_A_ulong_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int put_Completed__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_handler)
+			{
+				// Setup
+				global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> handler = default(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>);
+				try
+				{
+					// Marshalling
+					handler = (global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+										((global::System.IntPtr)unsafe_handler), 
+										typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>).TypeHandle
+									);
+					// Call to managed method
+					global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).put_Completed(handler);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncActionWithProgress<ulong>.get_Completed, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] Windows_Foundation_AsyncActionWithProgressCompletedHandler_1_ulong___Windows_Foundation__AsyncActionWithProgressCompletedHandler_A_ulong_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Completed__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong> __value__retval = default(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Completed();
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>).TypeHandle
+										);
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetResults__n(global::System.IntPtr pComThis)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+									__this, 
+									4
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_19(
+									__this, 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl), "put_Progress__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl), "get_Progress__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl), "put_Completed__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl), "get_Completed__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(80, typeof(global::Windows.Foundation.IAsyncActionWithProgress_A_ulong_V___Impl.Vtbl), "GetResults__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IAsyncActionWithProgress_A_ulong_V___Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.AsyncActionProgressHandler<ulong>
+	public unsafe static class AsyncActionProgressHandler_A_ulong_V___Impl
+	{
+		// Signature, Windows.Foundation.AsyncActionProgressHandler<ulong>.Invoke, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [in] [EETypeRva:0x00042020] Windows_Foundation_IAsyncActionWithProgress_1_ulong___Windows_Foundation__IAsyncActionWithProgress_A_ulong_V_ *, [fwd] [in] [EETypeRva:0x00041698] ulong__unsigned __int64, 
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncActionWithProgress<ulong> asyncInfo, 
+					ulong progressInfo)
+		{
+			// Setup
+			void* unsafe_asyncInfo = default(void*);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_asyncInfo = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+									asyncInfo, 
+									typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>).TypeHandle
+								);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(global::Windows.Foundation.AsyncActionProgressHandler<ulong>).TypeHandle, 
+									3, 
+									unsafe_asyncInfo, 
+									progressInfo
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				// Return
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_asyncInfo)));
+				global::System.GC.KeepAlive(asyncInfo);
+			}
+		}
+
+		// v-table for 'Windows.Foundation.AsyncActionProgressHandler<ulong>'
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.AsyncActionProgressHandler<ulong>))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			// Windows_Foundation__AsyncActionProgressHandler_A_ulong_V_
+			global::System.IntPtr pfnInvoke_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Foundation_AsyncActionProgressHandler_A_ulong_V___Impl_Vtbl_s_staticVtable")]
+			static global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnInvoke_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget28>(global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl.Invoke__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl)
+									);
+			}
+
+			// Signature, Windows.Foundation.AsyncActionProgressHandler<ulong>.Invoke, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [in] [EETypeRva:0x00042020] Windows_Foundation_IAsyncActionWithProgress_1_ulong___Windows_Foundation__IAsyncActionWithProgress_A_ulong_V_ *, [rev] [in] [EETypeRva:0x00041698] ulong__unsigned __int64, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int Invoke__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_asyncInfo, 
+						ulong unsafe_progressInfo)
+			{
+				// Setup
+				global::Windows.Foundation.IAsyncActionWithProgress<ulong> asyncInfo = default(global::Windows.Foundation.IAsyncActionWithProgress<ulong>);
+				try
+				{
+					// Marshalling
+					asyncInfo = (global::Windows.Foundation.IAsyncActionWithProgress<ulong>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_asyncInfo), 
+										typeof(global::Windows.Foundation.IAsyncActionWithProgress<ulong>).TypeHandle
+									);
+					// Call to managed method
+					global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.AsyncActionProgressHandler<ulong>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).Invoke(
+										asyncInfo, 
+										unsafe_progressInfo
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::Windows.Foundation.AsyncActionProgressHandler_A_ulong_V___Impl.Vtbl), "Invoke__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_AsyncActionProgressHandler_A_ulong_V___Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>
+	public unsafe static class AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl
+	{
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncActionWithProgress<ulong> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
+		{
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>, global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		// v-table for 'Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>'
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			// Windows_Foundation__AsyncActionWithProgressCompletedHandler_A_ulong_V_
+			global::System.IntPtr pfnInvoke_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Foundation_AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl_Vtbl_s_staticVtable")]
+			static global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnInvoke_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget15>(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl.Invoke__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl)
+									);
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int Invoke__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_asyncInfo, 
+						global::Windows.Foundation.AsyncStatus unsafe_asyncStatus)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Foundation.AsyncActionWithProgressCompletedHandler<ulong>>(
+									__this, 
+									0
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_15<global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+									__this, 
+									unsafe_asyncInfo, 
+									unsafe_asyncStatus, 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::Windows.Foundation.AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl.Vtbl), "Invoke__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_AsyncActionWithProgressCompletedHandler_A_ulong_V___Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
 	// Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>
 	public unsafe static class IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl
 	{
@@ -47060,8 +48013,8 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl.get_Completed__n),
-				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl.GetResults__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
 			;
@@ -47151,7 +48104,7 @@ namespace Windows.Foundation
 									__this, 
 									2
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.Streams.IRandomAccessStream>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									((void**)unsafe___value__retval), 
 									__methodPtr
@@ -47187,7 +48140,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Streams.IRandomAccessStream>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Streams.IRandomAccessStream>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -47205,7 +48158,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageStreamTransaction> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageStreamTransaction>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageStreamTransaction>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageStreamTransaction>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageStreamTransaction>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -47384,8 +48337,8 @@ namespace Windows.Foundation
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_StorageFile_V___Impl.Vtbl.put_Completed__n),
-				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_StorageFile_V___Impl.Vtbl.get_Completed__n),
-				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_StorageFile_V___Impl.Vtbl.GetResults__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_StorageFile_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_StorageFile_V___Impl.Vtbl.GetResults__n),
 			}
 			#endif
 			;
@@ -47475,7 +48428,7 @@ namespace Windows.Foundation
 									__this, 
 									2
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.StorageFile>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Storage.StorageFile>(
 									__this, 
 									((void**)unsafe___value__retval), 
 									__methodPtr
@@ -47500,42 +48453,6 @@ namespace Windows.Foundation
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 			}
-		}
-	}
-
-	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.StorageFile>
-	public unsafe static class AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V___Impl
-	{
-		public static void Invoke(
-					this global::System.__ComObject __this, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> asyncInfo, 
-					global::Windows.Foundation.AsyncStatus asyncStatus)
-		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFile>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-								__this, 
-								asyncInfo, 
-								((int)asyncStatus), 
-								3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-	}
-
-	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.StorageFolder>
-	public unsafe static class AsyncOperationCompletedHandler_A__w_Storage_StorageFolder_V___Impl
-	{
-		public static void Invoke(
-					this global::System.__ComObject __this, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> asyncInfo, 
-					global::Windows.Foundation.AsyncStatus asyncStatus)
-		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFolder>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-								__this, 
-								asyncInfo, 
-								((int)asyncStatus), 
-								3
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 		}
 	}
 
@@ -47691,7 +48608,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -47853,7 +48770,7 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
@@ -48015,13 +48932,376 @@ namespace Windows.Foundation
 					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> asyncInfo, 
 					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			global::__Interop.ForwardComStubs.Stub_91<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
 								__this, 
 								asyncInfo, 
 								((int)asyncStatus), 
 								3
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+	}
+
+	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.StorageFolder>
+	public unsafe static class AsyncOperationCompletedHandler_A__w_Storage_StorageFolder_V___Impl
+	{
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
+		{
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFolder>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+	}
+
+	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.StorageFile>
+	public unsafe static class AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V___Impl
+	{
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
+		{
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFile>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+	}
+
+	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.Provider.FileUpdateStatus>
+	public unsafe static class AsyncOperationCompletedHandler_A__w_Storage_Provider_FileUpdateStatus_V___Impl
+	{
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
+		{
+			global::__Interop.ForwardComStubs.Stub_92<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>>(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								3
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+	}
+
+	// Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>
+	public unsafe static class IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>'
+		public static partial class Stubs
+		{
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.put_Completed, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Provider_FileUpdateStatus___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Provider_FileUpdateStatus_V_ *, 
+			public static void put_Completed(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> handler)
+			{
+				// Setup
+				void* unsafe_handler = default(void*);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_handler = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										handler, 
+										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle
+									);
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle, 
+										6, 
+										unsafe_handler
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.get_Completed, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Provider_FileUpdateStatus___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Provider_FileUpdateStatus_V_ *, 
+			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> get_Completed(global::System.__ComObject __this)
+			{
+				// Setup
+				void* unsafe___value__retval = default(void*);
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> __value__retval = default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe___value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle, 
+										7, 
+										&(unsafe___value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					__value__retval = (global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+										((global::System.IntPtr)unsafe___value__retval), 
+										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle
+									);
+					// Return
+					return __value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.GetResults, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000415C4] Windows_Storage_Provider_FileUpdateStatus__Windows_Storage_Provider__FileUpdateStatus, 
+			public static global::Windows.Storage.Provider.FileUpdateStatus GetResults(global::System.__ComObject __this)
+			{
+				// Setup
+				global::Windows.Storage.Provider.FileUpdateStatus unsafe___value__retval;
+				global::Windows.Storage.Provider.FileUpdateStatus __value__retval;
+				int unsafe___hr;
+				// Marshalling
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle, 
+									8, 
+									&(unsafe___value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				__value__retval = unsafe___value__retval;
+				// Return
+				return __value__retval;
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>
+		{
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Id")]
+			uint global::Windows.Foundation.IAsyncInfo.get_Id()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return 0;
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Status")]
+			global::Windows.Foundation.AsyncStatus global::Windows.Foundation.IAsyncInfo.get_Status()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncStatus);
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.ErrorCode")]
+			global::System.Exception global::Windows.Foundation.IAsyncInfo.get_ErrorCode()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+				return default(global::System.Exception);
+			}
+
+			void global::Windows.Foundation.IAsyncInfo.Cancel()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			void global::Windows.Foundation.IAsyncInfo.Close()
+			{
+				global::__Interop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.Foundation.IAsyncOperation`1.Completed")]
+			void global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>.put_Completed(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> handler)
+			{
+				global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Stubs.put_Completed(
+									this, 
+									handler
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncOperation`1.Completed")]
+			global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>.get_Completed()
+			{
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> __retVal = global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Stubs.get_Completed(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			global::Windows.Storage.Provider.FileUpdateStatus global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>.GetResults()
+			{
+				global::Windows.Storage.Provider.FileUpdateStatus __retVal = global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Stubs.GetResults(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V_
+			global::System.IntPtr pfnput_Completed_;
+			global::System.IntPtr pfnget_Completed_;
+			global::System.IntPtr pfnGetResults_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Foundation_IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl_Vtbl_s_staticVtable")]
+			static global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnput_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget4>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.put_Completed__n),
+				pfnget_Completed_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.get_Completed__n),
+				pfnGetResults_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget33>(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.GetResults__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl)
+									);
+			}
+
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.put_Completed, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [in] [EETypeRva:0x0003F440] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Provider_FileUpdateStatus___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Provider_FileUpdateStatus_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int put_Completed__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_handler)
+			{
+				// Setup
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> handler = default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>);
+				try
+				{
+					// Marshalling
+					handler = (global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToDelegate(
+										((global::System.IntPtr)unsafe_handler), 
+										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle
+									);
+					// Call to managed method
+					global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).put_Completed(handler);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.get_Completed, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0003F440] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Provider_FileUpdateStatus___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Provider_FileUpdateStatus_V_ *, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Completed__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus> __value__retval = default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Completed();
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Provider.FileUpdateStatus>).TypeHandle
+										);
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateStatus>.GetResults, [rev] [return] [EETypeRva:0x00040700] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000415C4] Windows_Storage_Provider_FileUpdateStatus__Windows_Storage_Provider__FileUpdateStatus, 
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetResults__n(
+						global::System.IntPtr pComThis, 
+						global::Windows.Storage.Provider.FileUpdateStatus* unsafe___value__retval)
+			{
+				// Setup
+				global::Windows.Storage.Provider.FileUpdateStatus __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).GetResults();
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = __value__retval;
+					// Return
+					return 0;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = default(global::Windows.Storage.Provider.FileUpdateStatus);
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl), "put_Completed__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl), "get_Completed__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Foundation.IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl.Vtbl), "GetResults__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IAsyncOperation_A__w_Storage_Provider_FileUpdateStatus_V___Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
 		}
 	}
 }
@@ -53167,6 +54447,161 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
+	// Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>
+	public unsafe static class IIterator_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>'
+		public static partial class Stubs
+		{
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>.get_Current, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FC10] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IList_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j__wf_Collections_IVector_A_string_V__V_ *, 
+			public static global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> get_Current(global::System.__ComObject __this)
+			{
+				// Setup
+				void* unsafe___value__retval = default(void*);
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe___value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle, 
+										6, 
+										&(unsafe___value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>> pair___value__retval = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
+										((global::System.IntPtr)unsafe___value__retval), 
+										typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>).TypeHandle
+									));
+					__value__retval = new global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>(pair___value__retval.get_Key(), pair___value__retval.get_Value());
+					// Return
+					return __value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval)));
+				}
+			}
+
+			public static bool get_HasCurrent(global::System.__ComObject __this)
+			{
+				bool __ret = global::__Interop.ForwardComStubs.Stub_12<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>>(
+									__this, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static bool MoveNext(global::System.__ComObject __this)
+			{
+				bool __ret = global::__Interop.ForwardComStubs.Stub_12<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>>(
+									__this, 
+									8
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>.GetMany, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [EETypeRva:0x00040C00] rg_System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IList_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j__wf_Collections_IVector_A_string_V__V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041698] uint__unsigned int, 
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>[] items)
+			{
+				// Setup
+				uint unsafe_items_mcgLength = 0;
+				void** unsafe_items = default(void**);
+				uint unsafe___value__retval;
+				uint __value__retval;
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					if (items != null)
+						unsafe_items_mcgLength = (uint)items.Length;
+					if (items != null)
+						unsafe_items = (void**)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_items_mcgLength * sizeof(void*))));
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>).TypeHandle, 
+										9, 
+										unsafe_items_mcgLength, 
+										unsafe_items, 
+										&(unsafe___value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					__value__retval = unsafe___value__retval;
+					if (items != null)
+						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
+						{
+							// [fwd] [out] [optional] [EETypeRva:0x0003FC10] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IList_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j__wf_Collections_IVector_A_string_V__V_ * items
+							global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>> pair_items = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
+												((global::System.IntPtr)unsafe_items[mcgIdx]), 
+												typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IList<string>>).TypeHandle
+											));
+							items[mcgIdx] = new global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>(pair_items.get_Key(), pair_items.get_Value());
+						}
+					// Return
+					return __value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					if (unsafe_items != null)
+						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
+						{
+							// [fwd] [in] [out] [optional] [EETypeRva:0x0003FC10] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IList_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j__wf_Collections_IVector_A_string_V__V_ * items
+							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
+						}
+					global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_items);
+				}
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IList<string>>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>))]
+		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>
+		{
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
+			global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.get_Current()
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>> __retVal = global::Windows.Foundation.Collections.IIterator_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl.Stubs.get_Current(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.get_HasCurrent()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl.Stubs.get_HasCurrent(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.MoveNext()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl.Stubs.MoveNext(this);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+
+			uint global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>>.GetMany(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IList<string>>[] items)
+			{
+				uint __retVal = global::Windows.Foundation.Collections.IIterator_A__scg_KeyValuePair_A_string_j__scg_IList_A_string_V__V__V___Impl.Stubs.GetMany(
+									this, 
+									items
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __retVal;
+			}
+		}
+	}
+
 	// Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer>
 	public unsafe static class IIterator_A__wux__Automation_Peers_IAutomationPeer_V___Impl
 	{
@@ -57837,7 +59272,7 @@ namespace Windows.Foundation.Diagnostics
 						ulong operationId, 
 						global::Windows.Foundation.AsyncStatus status)
 			{
-				global::__Interop.ForwardComStubs.Stub_183<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
+				global::__Interop.ForwardComStubs.Stub_185<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
 									__this, 
 									((int)traceLevel), 
 									((int)source), 
@@ -57857,7 +59292,7 @@ namespace Windows.Foundation.Diagnostics
 						ulong operationId, 
 						global::Windows.Foundation.Diagnostics.CausalityRelation relation)
 			{
-				global::__Interop.ForwardComStubs.Stub_183<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
+				global::__Interop.ForwardComStubs.Stub_185<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
 									__this, 
 									((int)traceLevel), 
 									((int)source), 
@@ -57877,7 +59312,7 @@ namespace Windows.Foundation.Diagnostics
 						ulong operationId, 
 						global::Windows.Foundation.Diagnostics.CausalitySynchronousWork work)
 			{
-				global::__Interop.ForwardComStubs.Stub_183<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
+				global::__Interop.ForwardComStubs.Stub_185<global::Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics>(
 									__this, 
 									((int)traceLevel), 
 									((int)source), 
@@ -57976,7 +59411,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Windows.Globalization.ICalendar>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.Globalization.ICalendar>(
 									__this, 
 									value, 
 									13
@@ -58019,7 +59454,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Windows.Globalization.ICalendar>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Windows.Globalization.ICalendar>(
 									__this, 
 									value, 
 									23
@@ -58041,7 +59476,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						int idealLength)
 			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_127<global::Windows.Globalization.ICalendar>(
+				string __ret = global::__Interop.ForwardComStubs.Stub_128<global::Windows.Globalization.ICalendar>(
 									__this, 
 									idealLength, 
 									26
@@ -58064,7 +59499,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Windows.Globalization.ICalendar>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Windows.Globalization.ICalendar>(
 									__this, 
 									value, 
 									31
@@ -58086,7 +59521,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Windows.Globalization.ICalendar>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Windows.Globalization.ICalendar>(
 									__this, 
 									value, 
 									40
@@ -58118,7 +59553,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						int value)
 			{
-				global::__Interop.ForwardComStubs.Stub_112<global::Windows.Globalization.ICalendar>(
+				global::__Interop.ForwardComStubs.Stub_113<global::Windows.Globalization.ICalendar>(
 									__this, 
 									value, 
 									53
@@ -58138,7 +59573,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						string languageTag)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_181<global::Windows.Globalization.ILanguageFactory>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_182<global::Windows.Globalization.ILanguageFactory>(
 									__this, 
 									languageTag, 
 									6
@@ -58177,7 +59612,7 @@ namespace Windows.Globalization
 						global::System.__ComObject __this, 
 						string geographicRegionCode)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_181<global::Windows.Globalization.IGeographicRegionFactory>(
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_182<global::Windows.Globalization.IGeographicRegionFactory>(
 									__this, 
 									geographicRegionCode, 
 									6
@@ -58316,7 +59751,7 @@ namespace Windows.Graphics.Effects
 						global::System.__ComObject __this, 
 						string name)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Windows.Graphics.Effects.IGraphicsEffect>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.Graphics.Effects.IGraphicsEffect>(
 									__this, 
 									name, 
 									7
@@ -58343,429 +59778,6 @@ namespace Windows.Storage
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 				return __ret;
-			}
-		}
-	}
-
-	// Windows.Storage.IStorageFolder
-	public unsafe static class IStorageFolder__Impl
-	{
-		// StubClass for 'Windows.Storage.IStorageFolder'
-		public static partial class Stubs
-		{
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> CreateFileAsync(
-						global::System.__ComObject __this, 
-						string desiredName)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									desiredName, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> CreateFileAsync(
-						global::System.__ComObject __this, 
-						string desiredName, 
-						global::Windows.Storage.CreationCollisionOption options)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_98<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									desiredName, 
-									((int)options), 
-									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> CreateFolderAsync(
-						global::System.__ComObject __this, 
-						string desiredName)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									desiredName, 
-									8
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> CreateFolderAsync(
-						global::System.__ComObject __this, 
-						string desiredName, 
-						global::Windows.Storage.CreationCollisionOption options)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_98<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									desiredName, 
-									((int)options), 
-									9
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> GetFileAsync(
-						global::System.__ComObject __this, 
-						string name)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									name, 
-									10
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> GetFolderAsync(
-						global::System.__ComObject __this, 
-						string name)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									name, 
-									11
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> GetItemAsync(
-						global::System.__ComObject __this, 
-						string name)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
-									__this, 
-									name, 
-									12
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> GetFilesAsync(global::System.__ComObject __this)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
-									__this, 
-									13
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> GetFoldersAsync(global::System.__ComObject __this)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
-									__this, 
-									14
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> GetItemsAsync(global::System.__ComObject __this)
-			{
-				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
-									__this, 
-									15
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-		}
-
-		// v-table for 'Windows.Storage.IStorageFolder'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Storage.IStorageFolder))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Storage.IStorageFolder))]
-		internal unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Storage__IStorageFolder
-			global::System.IntPtr pfnCreateFileAsyncOverloadDefaultOptions_;
-			global::System.IntPtr pfnCreateFileAsync_;
-			global::System.IntPtr pfnCreateFolderAsyncOverloadDefaultOptions_;
-			global::System.IntPtr pfnCreateFolderAsync_;
-			global::System.IntPtr pfnGetFileAsync_;
-			global::System.IntPtr pfnGetFolderAsync_;
-			global::System.IntPtr pfnGetItemAsync_;
-			global::System.IntPtr pfnGetFilesAsyncOverloadDefaultOptionsStartAndCount_;
-			global::System.IntPtr pfnGetFoldersAsyncOverloadDefaultOptionsStartAndCount_;
-			global::System.IntPtr pfnGetItemsAsyncOverloadDefaultStartAndCount_;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Storage_IStorageFolder__Impl_Vtbl_s_staticVtable")]
-			static global::Windows.Storage.IStorageFolder__Impl.Vtbl s_staticVtable
-			#if false
-			 = new global::Windows.Storage.IStorageFolder__Impl.Vtbl() {
-				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnCreateFileAsyncOverloadDefaultOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFileAsyncOverloadDefaultOptions__n),
-				pfnCreateFileAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget28>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFileAsync__n),
-				pfnCreateFolderAsyncOverloadDefaultOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFolderAsyncOverloadDefaultOptions__n),
-				pfnCreateFolderAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget28>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFolderAsync__n),
-				pfnGetFileAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFileAsync__n),
-				pfnGetFolderAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFolderAsync__n),
-				pfnGetItemAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetItemAsync__n),
-				pfnGetFilesAsyncOverloadDefaultOptionsStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFilesAsyncOverloadDefaultOptionsStartAndCount__n),
-				pfnGetFoldersAsyncOverloadDefaultOptionsStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n),
-				pfnGetItemsAsyncOverloadDefaultStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetItemsAsyncOverloadDefaultStartAndCount__n),
-			}
-			#endif
-			;
-			static global::System.IntPtr s_cachedVtable;
-			internal static global::System.IntPtr GetVtbl()
-			{
-				fixed (void* pVtbl = &(global::Windows.Storage.IStorageFolder__Impl.Vtbl.s_staticVtable))
-					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
-										pVtbl, 
-										ref global::Windows.Storage.IStorageFolder__Impl.Vtbl.s_cachedVtable, 
-										sizeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl)
-									);
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int CreateFileAsyncOverloadDefaultOptions__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									0
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									unsafe_desiredName, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int CreateFileAsync__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
-						global::Windows.Storage.CreationCollisionOption unsafe_options, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									1
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_20<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									unsafe_desiredName, 
-									unsafe_options, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int CreateFolderAsyncOverloadDefaultOptions__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									2
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									unsafe_desiredName, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int CreateFolderAsync__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
-						global::Windows.Storage.CreationCollisionOption unsafe_options, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									3
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_20<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									unsafe_desiredName, 
-									unsafe_options, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetFileAsync__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									4
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
-									__this, 
-									unsafe_name, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetFolderAsync__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									5
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
-									__this, 
-									unsafe_name, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetItemAsync__n(
-						global::System.IntPtr pComThis, 
-						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									6
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
-									__this, 
-									unsafe_name, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetFilesAsyncOverloadDefaultOptionsStartAndCount__n(
-						global::System.IntPtr pComThis, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									7
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
-									__this, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n(
-						global::System.IntPtr pComThis, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									8
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
-									__this, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetItemsAsyncOverloadDefaultStartAndCount__n(
-						global::System.IntPtr pComThis, 
-						void** unsafe_operation__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
-									__this, 
-									9
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
-									__this, 
-									((void**)unsafe_operation__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			private static class Vtbl__McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFileAsyncOverloadDefaultOptions__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFileAsync__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFolderAsyncOverloadDefaultOptions__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFolderAsync__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(80, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFileAsync__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(88, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFolderAsync__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(96, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetItemAsync__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(104, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFilesAsyncOverloadDefaultOptionsStartAndCount__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(112, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(120, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetItemsAsyncOverloadDefaultStartAndCount__n")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Storage_IStorageFolder__Impl_Vtbl_s_staticVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 			}
 		}
 	}
@@ -58800,7 +59812,7 @@ namespace Windows.Storage
 						global::System.__ComObject __this, 
 						global::Windows.Storage.FileAccessMode accessMode)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> __ret = global::__Interop.ForwardComStubs.Stub_82<global::Windows.Storage.IStorageFile, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream>>(
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> __ret = global::__Interop.ForwardComStubs.Stub_83<global::Windows.Storage.IStorageFile, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream>>(
 									__this, 
 									((int)accessMode), 
 									8
@@ -58837,7 +59849,7 @@ namespace Windows.Storage
 						global::Windows.Storage.IStorageFolder destinationFolder, 
 						string desiredNewName)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_87<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_88<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
 									__this, 
 									destinationFolder, 
 									desiredNewName, 
@@ -58853,7 +59865,7 @@ namespace Windows.Storage
 						string desiredNewName, 
 						global::Windows.Storage.NameCollisionOption option)
 			{
-				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_163<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
 									__this, 
 									destinationFolder, 
 									desiredNewName, 
@@ -58895,7 +59907,7 @@ namespace Windows.Storage
 						global::Windows.Storage.IStorageFolder destinationFolder, 
 						string desiredNewName)
 			{
-				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_87<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
+				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_88<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									destinationFolder, 
 									desiredNewName, 
@@ -58911,7 +59923,7 @@ namespace Windows.Storage
 						string desiredNewName, 
 						global::Windows.Storage.NameCollisionOption option)
 			{
-				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_163<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
+				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_164<global::Windows.Storage.IStorageFile, global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									destinationFolder, 
 									desiredNewName, 
@@ -58973,7 +59985,7 @@ namespace Windows.Storage
 				pfnget_FileType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget2>(global::Windows.Storage.IStorageFile__Impl.Vtbl.get_FileType__n),
 				pfnget_ContentType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget2>(global::Windows.Storage.IStorageFile__Impl.Vtbl.get_ContentType__n),
 				pfnOpenAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget29>(global::Windows.Storage.IStorageFile__Impl.Vtbl.OpenAsync__n),
-				pfnOpenTransactedWriteAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.IStorageFile__Impl.Vtbl.OpenTransactedWriteAsync__n),
+				pfnOpenTransactedWriteAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.IStorageFile__Impl.Vtbl.OpenTransactedWriteAsync__n),
 				pfnCopyOverloadDefaultNameAndOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget16>(global::Windows.Storage.IStorageFile__Impl.Vtbl.CopyOverloadDefaultNameAndOptions__n),
 				pfnCopyOverloadDefaultOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget30>(global::Windows.Storage.IStorageFile__Impl.Vtbl.CopyOverloadDefaultOptions__n),
 				pfnCopyOverload_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget31>(global::Windows.Storage.IStorageFile__Impl.Vtbl.CopyOverload__n),
@@ -59082,7 +60094,7 @@ namespace Windows.Storage
 									__this, 
 									3
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageStreamTransaction>>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageStreamTransaction>>(
 									__this, 
 									((void**)unsafe_operation__retval), 
 									__methodPtr
@@ -59124,7 +60136,7 @@ namespace Windows.Storage
 									__this, 
 									5
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_21<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_20<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
 									__this, 
 									unsafe_destinationFolder, 
 									unsafe_desiredNewName, 
@@ -59148,7 +60160,7 @@ namespace Windows.Storage
 									__this, 
 									6
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_22<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_21<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
 									__this, 
 									unsafe_destinationFolder, 
 									unsafe_desiredNewName, 
@@ -59214,7 +60226,7 @@ namespace Windows.Storage
 									__this, 
 									9
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_21<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_20<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									unsafe_destinationFolder, 
 									unsafe_desiredNewName, 
@@ -59238,7 +60250,7 @@ namespace Windows.Storage
 									__this, 
 									10
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_22<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_21<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncAction>(
 									__this, 
 									unsafe_destinationFolder, 
 									unsafe_desiredNewName, 
@@ -59299,6 +60311,587 @@ namespace Windows.Storage
 			}
 		}
 	}
+
+	// Windows.Storage.IStorageFolder
+	public unsafe static class IStorageFolder__Impl
+	{
+		// StubClass for 'Windows.Storage.IStorageFolder'
+		public static partial class Stubs
+		{
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> CreateFileAsync(
+						global::System.__ComObject __this, 
+						string desiredName)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									desiredName, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> CreateFileAsync(
+						global::System.__ComObject __this, 
+						string desiredName, 
+						global::Windows.Storage.CreationCollisionOption options)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_99<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									desiredName, 
+									((int)options), 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> CreateFolderAsync(
+						global::System.__ComObject __this, 
+						string desiredName)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									desiredName, 
+									8
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> CreateFolderAsync(
+						global::System.__ComObject __this, 
+						string desiredName, 
+						global::Windows.Storage.CreationCollisionOption options)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_99<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									desiredName, 
+									((int)options), 
+									9
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> GetFileAsync(
+						global::System.__ComObject __this, 
+						string name)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									name, 
+									10
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> GetFolderAsync(
+						global::System.__ComObject __this, 
+						string name)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									name, 
+									11
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> GetItemAsync(
+						global::System.__ComObject __this, 
+						string name)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
+									__this, 
+									name, 
+									12
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> GetFilesAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
+									__this, 
+									13
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> GetFoldersAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
+									__this, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> GetItemsAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IStorageFolder, global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
+									__this, 
+									15
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Storage.IStorageFolder'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Storage.IStorageFolder))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Storage.IStorageFolder))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Storage__IStorageFolder
+			global::System.IntPtr pfnCreateFileAsyncOverloadDefaultOptions_;
+			global::System.IntPtr pfnCreateFileAsync_;
+			global::System.IntPtr pfnCreateFolderAsyncOverloadDefaultOptions_;
+			global::System.IntPtr pfnCreateFolderAsync_;
+			global::System.IntPtr pfnGetFileAsync_;
+			global::System.IntPtr pfnGetFolderAsync_;
+			global::System.IntPtr pfnGetItemAsync_;
+			global::System.IntPtr pfnGetFilesAsyncOverloadDefaultOptionsStartAndCount_;
+			global::System.IntPtr pfnGetFoldersAsyncOverloadDefaultOptionsStartAndCount_;
+			global::System.IntPtr pfnGetItemsAsyncOverloadDefaultStartAndCount_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_Storage_IStorageFolder__Impl_Vtbl_s_staticVtable")]
+			static global::Windows.Storage.IStorageFolder__Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.Storage.IStorageFolder__Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnCreateFileAsyncOverloadDefaultOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFileAsyncOverloadDefaultOptions__n),
+				pfnCreateFileAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget32>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFileAsync__n),
+				pfnCreateFolderAsyncOverloadDefaultOptions_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFolderAsyncOverloadDefaultOptions__n),
+				pfnCreateFolderAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget32>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.CreateFolderAsync__n),
+				pfnGetFileAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFileAsync__n),
+				pfnGetFolderAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFolderAsync__n),
+				pfnGetItemAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetItemAsync__n),
+				pfnGetFilesAsyncOverloadDefaultOptionsStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFilesAsyncOverloadDefaultOptionsStartAndCount__n),
+				pfnGetFoldersAsyncOverloadDefaultOptionsStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n),
+				pfnGetItemsAsyncOverloadDefaultStartAndCount_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.IStorageFolder__Impl.Vtbl.GetItemsAsyncOverloadDefaultStartAndCount__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.Storage.IStorageFolder__Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.Storage.IStorageFolder__Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl)
+									);
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int CreateFileAsyncOverloadDefaultOptions__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									0
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									unsafe_desiredName, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int CreateFileAsync__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
+						global::Windows.Storage.CreationCollisionOption unsafe_options, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									1
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_22<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									unsafe_desiredName, 
+									unsafe_options, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int CreateFolderAsyncOverloadDefaultOptions__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									2
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									unsafe_desiredName, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int CreateFolderAsync__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_desiredName, 
+						global::Windows.Storage.CreationCollisionOption unsafe_options, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									3
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_22<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									unsafe_desiredName, 
+									unsafe_options, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetFileAsync__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									4
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									unsafe_name, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetFolderAsync__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									5
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder>>(
+									__this, 
+									unsafe_name, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetItemAsync__n(
+						global::System.IntPtr pComThis, 
+						global::System.Runtime.InteropServices.HSTRING unsafe_name, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									6
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_17<global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem>>(
+									__this, 
+									unsafe_name, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetFilesAsyncOverloadDefaultOptionsStartAndCount__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									7
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>>>(
+									__this, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									8
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>>>(
+									__this, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetItemsAsyncOverloadDefaultStartAndCount__n(
+						global::System.IntPtr pComThis, 
+						void** unsafe_operation__retval)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.Storage.IStorageFolder>(
+									__this, 
+									9
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>>>(
+									__this, 
+									((void**)unsafe_operation__retval), 
+									__methodPtr
+								));
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFileAsyncOverloadDefaultOptions__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFileAsync__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFolderAsyncOverloadDefaultOptions__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "CreateFolderAsync__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(80, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFileAsync__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(88, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFolderAsync__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(96, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetItemAsync__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(104, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFilesAsyncOverloadDefaultOptionsStartAndCount__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(112, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetFoldersAsyncOverloadDefaultOptionsStartAndCount__n")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(120, typeof(global::Windows.Storage.IStorageFolder__Impl.Vtbl), "GetItemsAsyncOverloadDefaultStartAndCount__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Storage_IStorageFolder__Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Storage.IKnownFoldersSavedPicturesStatics
+	public unsafe static class IKnownFoldersSavedPicturesStatics__Impl
+	{
+		// StubClass for 'Windows.Storage.IKnownFoldersSavedPicturesStatics'
+		public static partial class Stubs
+		{
+			public static global::Windows.Storage.StorageFolder get_SavedPictures(global::System.__ComObject __this)
+			{
+				global::Windows.Storage.StorageFolder __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.IKnownFoldersSavedPicturesStatics, global::Windows.Storage.StorageFolder>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+
+	// Windows.Storage.ICachedFileManagerStatics
+	public unsafe static class ICachedFileManagerStatics__Impl
+	{
+		// StubClass for 'Windows.Storage.ICachedFileManagerStatics'
+		public static partial class Stubs
+		{
+			public static void DeferUpdates(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.IStorageFile file)
+			{
+				global::__Interop.ForwardComStubs.Stub_6<global::Windows.Storage.ICachedFileManagerStatics, global::Windows.Storage.IStorageFile>(
+									__this, 
+									file, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus> CompleteUpdatesAsync(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.IStorageFile file)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus> __ret = global::__Interop.ForwardComStubs.Stub_20<global::Windows.Storage.ICachedFileManagerStatics, global::Windows.Storage.IStorageFile, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Provider.FileUpdateStatus>>(
+									__this, 
+									file, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+}
+
+namespace Windows.Storage.Pickers
+{
+	// Windows.Storage.Pickers.IFileSavePicker
+	public unsafe static class IFileSavePicker__Impl
+	{
+		// StubClass for 'Windows.Storage.Pickers.IFileSavePicker'
+		public static partial class Stubs
+		{
+			public static void put_SuggestedStartLocation(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.Pickers.PickerLocationId value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.Storage.Pickers.IFileSavePicker>(
+									__this, 
+									((int)value), 
+									9
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>> get_FileTypeChoices(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.Pickers.IFileSavePicker, global::System.Collections.Generic.IDictionary<string, global::System.Collections.Generic.IList<string>>>(
+									__this, 
+									12
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_DefaultFileExtension(
+						global::System.__ComObject __this, 
+						string value)
+			{
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.Storage.Pickers.IFileSavePicker>(
+									__this, 
+									value, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static void put_SuggestedFileName(
+						global::System.__ComObject __this, 
+						string value)
+			{
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.Storage.Pickers.IFileSavePicker>(
+									__this, 
+									value, 
+									18
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> PickSaveFileAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.Pickers.IFileSavePicker, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									19
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+
+	// Windows.Storage.Pickers.IFileOpenPicker
+	public unsafe static class IFileOpenPicker__Impl
+	{
+		// StubClass for 'Windows.Storage.Pickers.IFileOpenPicker'
+		public static partial class Stubs
+		{
+			public static void put_SuggestedStartLocation(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.Pickers.PickerLocationId value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.Storage.Pickers.IFileOpenPicker>(
+									__this, 
+									((int)value), 
+									11
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::System.Collections.Generic.IList<string> get_FileTypeFilter(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IList<string> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.Pickers.IFileOpenPicker, global::System.Collections.Generic.IList<string>>(
+									__this, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> PickSingleFileAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Storage.Pickers.IFileOpenPicker, global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile>>(
+									__this, 
+									15
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
 }
 
 namespace Windows.Storage.Streams
@@ -59311,7 +60904,7 @@ namespace Windows.Storage.Streams
 		{
 			public static uint get_Capacity(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Windows.Storage.Streams.IBuffer>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									6
 								);
@@ -59321,7 +60914,7 @@ namespace Windows.Storage.Streams
 
 			public static uint get_Length(global::System.__ComObject __this)
 			{
-				uint __ret = global::__Interop.ForwardComStubs.Stub_89<global::Windows.Storage.Streams.IBuffer>(
+				uint __ret = global::__Interop.ForwardComStubs.Stub_90<global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									7
 								);
@@ -59333,7 +60926,7 @@ namespace Windows.Storage.Streams
 						global::System.__ComObject __this, 
 						uint value)
 			{
-				global::__Interop.ForwardComStubs.Stub_90<global::Windows.Storage.Streams.IBuffer>(
+				global::__Interop.ForwardComStubs.Stub_91<global::Windows.Storage.Streams.IBuffer>(
 									__this, 
 									value, 
 									8
@@ -59398,9 +60991,9 @@ namespace Windows.Storage.Streams
 				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Capacity_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Capacity__n),
-				pfnget_Length_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Length__n),
-				pfnput_Length_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget7>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.put_Length__n),
+				pfnget_Capacity_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget7>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Capacity__n),
+				pfnget_Length_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget7>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Length__n),
+				pfnput_Length_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget8>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.put_Length__n),
 			}
 			#endif
 			;
@@ -59425,7 +61018,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									0
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_8(
 									__this, 
 									unsafe_value__retval, 
 									__methodPtr
@@ -59444,7 +61037,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									1
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_8(
 									__this, 
 									unsafe_value__retval, 
 									__methodPtr
@@ -59463,7 +61056,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									2
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_8(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_9(
 									__this, 
 									unsafe_value, 
 									__methodPtr
@@ -59499,7 +61092,7 @@ namespace Windows.Storage.Streams
 		{
 			public static ulong get_Size(global::System.__ComObject __this)
 			{
-				ulong __ret = global::__Interop.ForwardComStubs.Stub_31<global::Windows.Storage.Streams.IRandomAccessStream>(
+				ulong __ret = global::__Interop.ForwardComStubs.Stub_32<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									6
 								);
@@ -59511,7 +61104,7 @@ namespace Windows.Storage.Streams
 						global::System.__ComObject __this, 
 						ulong value)
 			{
-				global::__Interop.ForwardComStubs.Stub_32<global::Windows.Storage.Streams.IRandomAccessStream>(
+				global::__Interop.ForwardComStubs.Stub_33<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									value, 
 									7
@@ -59523,7 +61116,7 @@ namespace Windows.Storage.Streams
 						global::System.__ComObject __this, 
 						ulong position)
 			{
-				global::Windows.Storage.Streams.IInputStream __ret = global::__Interop.ForwardComStubs.Stub_92<global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Storage.Streams.IInputStream>(
+				global::Windows.Storage.Streams.IInputStream __ret = global::__Interop.ForwardComStubs.Stub_93<global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Storage.Streams.IInputStream>(
 									__this, 
 									position, 
 									8
@@ -59536,7 +61129,7 @@ namespace Windows.Storage.Streams
 						global::System.__ComObject __this, 
 						ulong position)
 			{
-				global::Windows.Storage.Streams.IOutputStream __ret = global::__Interop.ForwardComStubs.Stub_92<global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Storage.Streams.IOutputStream>(
+				global::Windows.Storage.Streams.IOutputStream __ret = global::__Interop.ForwardComStubs.Stub_93<global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Storage.Streams.IOutputStream>(
 									__this, 
 									position, 
 									9
@@ -59547,7 +61140,7 @@ namespace Windows.Storage.Streams
 
 			public static ulong get_Position(global::System.__ComObject __this)
 			{
-				ulong __ret = global::__Interop.ForwardComStubs.Stub_31<global::Windows.Storage.Streams.IRandomAccessStream>(
+				ulong __ret = global::__Interop.ForwardComStubs.Stub_32<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									10
 								);
@@ -59559,7 +61152,7 @@ namespace Windows.Storage.Streams
 						global::System.__ComObject __this, 
 						ulong position)
 			{
-				global::__Interop.ForwardComStubs.Stub_32<global::Windows.Storage.Streams.IRandomAccessStream>(
+				global::__Interop.ForwardComStubs.Stub_33<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									position, 
 									11
@@ -59738,13 +61331,13 @@ namespace Windows.Storage.Streams
 				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Size_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget8>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_Size__n),
-				pfnput_Size_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget9>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.put_Size__n),
-				pfnGetInputStreamAt_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget10>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.GetInputStreamAt__n),
-				pfnGetOutputStreamAt_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget10>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.GetOutputStreamAt__n),
-				pfnget_Position_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget8>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_Position__n),
-				pfnSeek_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget9>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.Seek__n),
-				pfnCloneStream_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.CloneStream__n),
+				pfnget_Size_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget9>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_Size__n),
+				pfnput_Size_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget10>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.put_Size__n),
+				pfnGetInputStreamAt_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.GetInputStreamAt__n),
+				pfnGetOutputStreamAt_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.GetOutputStreamAt__n),
+				pfnget_Position_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget9>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_Position__n),
+				pfnSeek_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget10>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.Seek__n),
+				pfnCloneStream_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.CloneStream__n),
 				pfnget_CanRead_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_CanRead__n),
 				pfnget_CanWrite_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.Storage.Streams.IRandomAccessStream__Impl.Vtbl.get_CanWrite__n),
 			}
@@ -59771,7 +61364,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									0
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_9(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_10(
 									__this, 
 									unsafe_value__retval, 
 									__methodPtr
@@ -59790,7 +61383,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									1
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_10(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_11(
 									__this, 
 									unsafe_value, 
 									__methodPtr
@@ -59810,7 +61403,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									2
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_11<global::Windows.Storage.Streams.IInputStream>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.Streams.IInputStream>(
 									__this, 
 									unsafe_position, 
 									((void**)unsafe_stream__retval), 
@@ -59831,7 +61424,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									3
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_11<global::Windows.Storage.Streams.IOutputStream>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.Streams.IOutputStream>(
 									__this, 
 									unsafe_position, 
 									((void**)unsafe_stream__retval), 
@@ -59851,7 +61444,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									4
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_9(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_10(
 									__this, 
 									unsafe_value__retval, 
 									__methodPtr
@@ -59870,7 +61463,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									5
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_10(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_11(
 									__this, 
 									unsafe_position, 
 									__methodPtr
@@ -59889,7 +61482,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									6
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Storage.Streams.IRandomAccessStream>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Storage.Streams.IRandomAccessStream>(
 									__this, 
 									((void**)unsafe_stream__retval), 
 									__methodPtr
@@ -60227,7 +61820,7 @@ namespace Windows.Storage.Streams
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
 				pfnWriteAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget16>(global::Windows.Storage.Streams.IOutputStream__Impl.Vtbl.WriteAsync__n),
-				pfnFlushAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.Storage.Streams.IOutputStream__Impl.Vtbl.FlushAsync__n),
+				pfnFlushAsync_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.Storage.Streams.IOutputStream__Impl.Vtbl.FlushAsync__n),
 			}
 			#endif
 			;
@@ -60273,7 +61866,7 @@ namespace Windows.Storage.Streams
 									__this, 
 									1
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.Foundation.IAsyncOperation<bool>>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.Foundation.IAsyncOperation<bool>>(
 									__this, 
 									((void**)unsafe_operation__retval), 
 									__methodPtr
@@ -60331,7 +61924,7 @@ namespace Windows.UI.Core
 						global::System.__ComObject __this, 
 						bool value)
 			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Windows.UI.Core.ICoreWindowEventArgs>(
+				global::__Interop.ForwardComStubs.Stub_34<global::Windows.UI.Core.ICoreWindowEventArgs>(
 									__this, 
 									value, 
 									7
@@ -60708,7 +62301,7 @@ namespace Windows.UI.Input.Inking
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Input.Inking.InkUnprocessedInput, global::Windows.UI.Core.PointerEventArgs> handler)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
 									__this, 
 									handler, 
 									10
@@ -60733,7 +62326,7 @@ namespace Windows.UI.Input.Inking
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Input.Inking.InkUnprocessedInput, global::Windows.UI.Core.PointerEventArgs> handler)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
 									__this, 
 									handler, 
 									12
@@ -60758,7 +62351,7 @@ namespace Windows.UI.Input.Inking
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Input.Inking.InkUnprocessedInput, global::Windows.UI.Core.PointerEventArgs> handler)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
 									__this, 
 									handler, 
 									14
@@ -60783,7 +62376,7 @@ namespace Windows.UI.Input.Inking
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Input.Inking.InkUnprocessedInput, global::Windows.UI.Core.PointerEventArgs> handler)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
 									__this, 
 									handler, 
 									16
@@ -60808,7 +62401,7 @@ namespace Windows.UI.Input.Inking
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Input.Inking.InkUnprocessedInput, global::Windows.UI.Core.PointerEventArgs> handler)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Input.Inking.IInkUnprocessedInput>(
 									__this, 
 									handler, 
 									18
@@ -60920,6 +62513,32 @@ namespace Windows.UI.Input.Inking
 				invalidatedRectangle__retval = unsafe_invalidatedRectangle__retval;
 				// Return
 				return invalidatedRectangle__retval;
+			}
+
+			public static global::Windows.Foundation.IAsyncActionWithProgress<ulong> LoadAsync(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.Streams.IInputStream inputStream)
+			{
+				global::Windows.Foundation.IAsyncActionWithProgress<ulong> __ret = global::__Interop.ForwardComStubs.Stub_20<global::Windows.UI.Input.Inking.IInkStrokeContainer, global::Windows.Storage.Streams.IInputStream, global::Windows.Foundation.IAsyncActionWithProgress<ulong>>(
+									__this, 
+									inputStream, 
+									15
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> SaveAsync(
+						global::System.__ComObject __this, 
+						global::Windows.Storage.Streams.IOutputStream outputStream)
+			{
+				global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> __ret = global::__Interop.ForwardComStubs.Stub_20<global::Windows.UI.Input.Inking.IInkStrokeContainer, global::Windows.Storage.Streams.IOutputStream, global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint>>(
+									__this, 
+									outputStream, 
+									16
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
 			}
 
 			public static global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Input.Inking.InkStroke> GetStrokes(global::System.__ComObject __this)
@@ -63928,6 +65547,59 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IFrameworkElement'
 		public static partial class Stubs
 		{
+			public static double get_ActualWidth(global::System.__ComObject __this)
+			{
+				double __ret = global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.IFrameworkElement>(
+									__this, 
+									13
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static double get_ActualHeight(global::System.__ComObject __this)
+			{
+				double __ret = global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.IFrameworkElement>(
+									__this, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			// Signature, Windows.UI.Xaml.IFrameworkElement.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000415C4] Windows_UI_Xaml_HorizontalAlignment__Windows_UI_Xaml__HorizontalAlignment, 
+			public static global::Windows.UI.Xaml.HorizontalAlignment get_HorizontalAlignment(global::System.__ComObject __this)
+			{
+				// Setup
+				global::Windows.UI.Xaml.HorizontalAlignment unsafe_value__retval;
+				global::Windows.UI.Xaml.HorizontalAlignment value__retval;
+				int unsafe___hr;
+				// Marshalling
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(global::Windows.UI.Xaml.IFrameworkElement).TypeHandle, 
+									27, 
+									&(unsafe_value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				value__retval = unsafe_value__retval;
+				// Return
+				return value__retval;
+			}
+
+			public static void put_HorizontalAlignment(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.HorizontalAlignment value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.IFrameworkElement>(
+									__this, 
+									((int)value), 
+									28
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
 			// Signature, Windows.UI.Xaml.IFrameworkElement.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000415C4] Windows_UI_Xaml_VerticalAlignment__Windows_UI_Xaml__VerticalAlignment, 
 			public static global::Windows.UI.Xaml.VerticalAlignment get_VerticalAlignment(global::System.__ComObject __this)
 			{
@@ -63975,7 +65647,7 @@ namespace Windows.UI.Xaml
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.IFrameworkElement>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.UI.Xaml.IFrameworkElement>(
 									__this, 
 									value, 
 									34
@@ -64223,7 +65895,7 @@ namespace Windows.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size availableSize)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_24<global::Windows.UI.Xaml.IFrameworkElementOverrides>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_25<global::Windows.UI.Xaml.IFrameworkElementOverrides>(
 									__this, 
 									availableSize, 
 									6
@@ -64236,7 +65908,7 @@ namespace Windows.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Size finalSize)
 			{
-				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_24<global::Windows.UI.Xaml.IFrameworkElementOverrides>(
+				global::Windows.Foundation.Size __ret = global::__Interop.ForwardComStubs.Stub_25<global::Windows.UI.Xaml.IFrameworkElementOverrides>(
 									__this, 
 									finalSize, 
 									7
@@ -64324,7 +65996,7 @@ namespace Windows.UI.Xaml
 						string stateName, 
 						bool useTransitions)
 			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_25<global::Windows.UI.Xaml.IFrameworkElementOverrides2>(
+				bool __ret = global::__Interop.ForwardComStubs.Stub_26<global::Windows.UI.Xaml.IFrameworkElementOverrides2>(
 									__this, 
 									stateName, 
 									useTransitions, 
@@ -64346,7 +66018,7 @@ namespace Windows.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_26<global::Windows.UI.Xaml.IFrameworkElement3>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_27<global::Windows.UI.Xaml.IFrameworkElement3>(
 									__this, 
 									value, 
 									6
@@ -64379,7 +66051,7 @@ namespace Windows.UI.Xaml
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_26<global::Windows.UI.Xaml.IFrameworkElement6>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_27<global::Windows.UI.Xaml.IFrameworkElement6>(
 									__this, 
 									value, 
 									7
@@ -66189,7 +67861,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						object value)
 			{
-				global::__Interop.ForwardComStubs.Stub_28<global::Windows.UI.Xaml.Controls.IControlProtected>(
+				global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IControlProtected>(
 									__this, 
 									value, 
 									7
@@ -66201,7 +67873,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						string childName)
 			{
-				global::Windows.UI.Xaml.DependencyObject __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IControlProtected, global::Windows.UI.Xaml.DependencyObject>(
+				global::Windows.UI.Xaml.DependencyObject __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.UI.Xaml.Controls.IControlProtected, global::Windows.UI.Xaml.DependencyObject>(
 									__this, 
 									childName, 
 									8
@@ -66643,7 +68315,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_142<global::Windows.UI.Xaml.Controls.IInkToolbar>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Xaml.Controls.IInkToolbar>(
 									__this, 
 									value, 
 									16
@@ -66668,7 +68340,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_142<global::Windows.UI.Xaml.Controls.IInkToolbar>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Xaml.Controls.IInkToolbar>(
 									__this, 
 									value, 
 									18
@@ -66693,7 +68365,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_142<global::Windows.UI.Xaml.Controls.IInkToolbar>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Xaml.Controls.IInkToolbar>(
 									__this, 
 									value, 
 									20
@@ -66718,7 +68390,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbar, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_142<global::Windows.UI.Xaml.Controls.IInkToolbar>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_143<global::Windows.UI.Xaml.Controls.IInkToolbar>(
 									__this, 
 									value, 
 									22
@@ -66743,7 +68415,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.InkToolbarTool tool)
 			{
-				global::Windows.UI.Xaml.Controls.InkToolbarToolButton __ret = global::__Interop.ForwardComStubs.Stub_82<global::Windows.UI.Xaml.Controls.IInkToolbar, global::Windows.UI.Xaml.Controls.InkToolbarToolButton>(
+				global::Windows.UI.Xaml.Controls.InkToolbarToolButton __ret = global::__Interop.ForwardComStubs.Stub_83<global::Windows.UI.Xaml.Controls.IInkToolbar, global::Windows.UI.Xaml.Controls.InkToolbarToolButton>(
 									__this, 
 									((int)tool), 
 									24
@@ -66815,7 +68487,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						object value)
 			{
-				global::__Interop.ForwardComStubs.Stub_28<global::Windows.UI.Xaml.Controls.IContentControl>(
+				global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IContentControl>(
 									__this, 
 									value, 
 									7
@@ -66836,7 +68508,7 @@ namespace Windows.UI.Xaml.Controls
 						object oldContent, 
 						object newContent)
 			{
-				global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Xaml.Controls.IContentControlOverrides>(
+				global::__Interop.ForwardComStubs.Stub_145<global::Windows.UI.Xaml.Controls.IContentControlOverrides>(
 									__this, 
 									oldContent, 
 									newContent, 
@@ -67509,7 +69181,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_182<global::Windows.UI.Xaml.Controls.IInkToolbarFlyoutItem>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_183<global::Windows.UI.Xaml.Controls.IInkToolbarFlyoutItem>(
 									__this, 
 									value, 
 									10
@@ -67534,7 +69206,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.InkToolbarFlyoutItem, object> value)
 			{
-				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_182<global::Windows.UI.Xaml.Controls.IInkToolbarFlyoutItem>(
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_183<global::Windows.UI.Xaml.Controls.IInkToolbarFlyoutItem>(
 									__this, 
 									value, 
 									12
@@ -67567,7 +69239,7 @@ namespace Windows.UI.Xaml.Controls
 						global::System.__ComObject __this, 
 						string value)
 			{
-				global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.Controls.ITextBlock>(
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.UI.Xaml.Controls.ITextBlock>(
 									__this, 
 									value, 
 									27
@@ -67850,6 +69522,45 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		// StubClass for 'Windows.UI.Xaml.Controls.Primitives.IToggleButton'
 		public static partial class Stubs
 		{
+			// Signature, Windows.UI.Xaml.Controls.Primitives.IToggleButton.get_IsChecked, [fwd] [return] [EETypeRva:0x00040700] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FE88] System_Nullable_1_bool___Windows_Foundation__IReference_A_bool_V_ *, 
+			public static global::System.Nullable<bool> get_IsChecked(global::System.__ComObject __this)
+			{
+				// Setup
+				void* unsafe_value__retval = default(void*);
+				global::System.Nullable<bool> value__retval = default(global::System.Nullable<bool>);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.Primitives.IToggleButton).TypeHandle, 
+										6, 
+										&(unsafe_value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					if (unsafe_value__retval != null)
+						value__retval = (bool)global::System.Runtime.InteropServices.McgMarshal.UnboxIfBoxed(
+											global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
+																((global::System.IntPtr)unsafe_value__retval), 
+																typeof(global::Windows.Foundation.IReference<bool>).TypeHandle
+															), 
+											"Windows.Foundation.IReference`1<Boolean>"
+										);
+					else
+						value__retval = null;
+					// Return
+					return value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value__retval)));
+				}
+			}
+
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Checked(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.RoutedEventHandler value)
@@ -69930,7 +71641,7 @@ namespace Windows.UI.Xaml.Markup
 
 			public static global::System.Type get_UnderlyingType(global::System.__ComObject __this)
 			{
-				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_145<global::Windows.UI.Xaml.Markup.IXamlType>(
+				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_146<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									17
 								);
@@ -69991,7 +71702,7 @@ namespace Windows.UI.Xaml.Markup
 						global::System.__ComObject __this, 
 						string name)
 			{
-				global::Windows.UI.Xaml.Markup.IXamlMember __ret = global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Markup.IXamlType, global::Windows.UI.Xaml.Markup.IXamlMember>(
+				global::Windows.UI.Xaml.Markup.IXamlMember __ret = global::__Interop.ForwardComStubs.Stub_30<global::Windows.UI.Xaml.Markup.IXamlType, global::Windows.UI.Xaml.Markup.IXamlMember>(
 									__this, 
 									name, 
 									20
@@ -70005,7 +71716,7 @@ namespace Windows.UI.Xaml.Markup
 						object instance, 
 						object value)
 			{
-				global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Xaml.Markup.IXamlType>(
+				global::__Interop.ForwardComStubs.Stub_145<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									instance, 
 									value, 
@@ -70263,8 +71974,8 @@ namespace Windows.UI.Xaml.Markup
 				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_BaseType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_BaseType__n),
-				pfnget_ContentProperty_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ContentProperty__n),
+				pfnget_BaseType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_BaseType__n),
+				pfnget_ContentProperty_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ContentProperty__n),
 				pfnget_FullName_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget2>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_FullName__n),
 				pfnget_IsArray_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsArray__n),
 				pfnget_IsCollection_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsCollection__n),
@@ -70272,10 +71983,10 @@ namespace Windows.UI.Xaml.Markup
 				pfnget_IsDictionary_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsDictionary__n),
 				pfnget_IsMarkupExtension_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsMarkupExtension__n),
 				pfnget_IsBindable_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsBindable__n),
-				pfnget_ItemType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ItemType__n),
-				pfnget_KeyType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_KeyType__n),
+				pfnget_ItemType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ItemType__n),
+				pfnget_KeyType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_KeyType__n),
 				pfnget_UnderlyingType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget20>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_UnderlyingType__n),
-				pfnActivateInstance_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.ActivateInstance__n),
+				pfnActivateInstance_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.ActivateInstance__n),
 				pfnCreateFromString_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.CreateFromString__n),
 				pfnGetMember_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget18>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.GetMember__n),
 				pfnAddToVector_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget5>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.AddToVector__n),
@@ -70305,7 +72016,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									0
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlType>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -70324,7 +72035,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									1
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlMember>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlMember>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -70476,7 +72187,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									9
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlType>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -70495,7 +72206,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									10
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlType>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -70855,7 +72566,7 @@ namespace Windows.UI.Xaml.Markup
 						object instance, 
 						object value)
 			{
-				global::__Interop.ForwardComStubs.Stub_144<global::Windows.UI.Xaml.Markup.IXamlMember>(
+				global::__Interop.ForwardComStubs.Stub_145<global::Windows.UI.Xaml.Markup.IXamlMember>(
 									__this, 
 									instance, 
 									value, 
@@ -70974,8 +72685,8 @@ namespace Windows.UI.Xaml.Markup
 				pfnget_IsDependencyProperty_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsDependencyProperty__n),
 				pfnget_IsReadOnly_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget12>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsReadOnly__n),
 				pfnget_Name_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget2>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Name__n),
-				pfnget_TargetType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_TargetType__n),
-				pfnget_Type_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget11>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Type__n),
+				pfnget_TargetType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_TargetType__n),
+				pfnget_Type_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget6>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Type__n),
 				pfnGetValue_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget16>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.GetValue__n),
 				pfnSetValue_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget5>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.SetValue__n),
 			}
@@ -71078,7 +72789,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									4
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlType>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -71097,7 +72808,7 @@ namespace Windows.UI.Xaml.Markup
 									__this, 
 									5
 								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_12<global::Windows.UI.Xaml.Markup.IXamlType>(
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_7<global::Windows.UI.Xaml.Markup.IXamlType>(
 									__this, 
 									((void**)unsafe_value__retval), 
 									__methodPtr
@@ -71484,7 +73195,7 @@ namespace Windows.UI.Xaml.Navigation
 		{
 			public static global::System.Type get_SourcePageType(global::System.__ComObject __this)
 			{
-				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_145<global::Windows.UI.Xaml.Navigation.INavigationFailedEventArgs>(
+				global::System.Type __ret = global::__Interop.ForwardComStubs.Stub_146<global::Windows.UI.Xaml.Navigation.INavigationFailedEventArgs>(
 									__this, 
 									9
 								);

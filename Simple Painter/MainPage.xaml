@@ -12,7 +12,7 @@
     </Page.Background>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <canvas:CanvasControl Draw="DrawCanvas" ClearColor="Beige" x:Name="DrawingCanvas"/>
+        <canvas:CanvasControl Draw="DrawCanvas" x:Name="DrawingCanvas"/>
 
         <InkCanvas x:Name="InkCanvas" />
 
@@ -31,6 +31,9 @@
             </InkToolbarCustomToolButton>
             <InkToolbarCustomToolButton x:Name="btnSave">
                 <SymbolIcon Symbol="Save"></SymbolIcon>
+            </InkToolbarCustomToolButton>
+            <InkToolbarCustomToolButton x:Name="btnExport">
+                Export
             </InkToolbarCustomToolButton>
         </InkToolbar>
     </Grid>
